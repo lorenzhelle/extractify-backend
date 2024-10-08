@@ -1,0 +1,242 @@
+[
+  {
+    "ID": 1282,
+    "Query": "Chromebook mit 6GB RAM und 512GB Speicher",
+    "Category": "Laptops",
+    "Entities": "{\"modellreihe\":[\"Chromebook\"],\"arbeitsspeicher\":[\"6 GB\"],\"speicherkapazitaet\":[\"512 GB\"]}"
+  },
+  {
+    "ID": 482,
+    "Query": "iphone 15 pro max ladeger\u00e4t",
+    "Category": "Other",
+    "Entities": "{}"
+  },
+  {
+    "ID": 1311,
+    "Query": "Laptop mit 13 Zoll Bildschirm und MacOS",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"13 Zoll\"],\"betriebssystem\":[\"MacOS\"]}"
+  },
+  {
+    "ID": 182,
+    "Query": "laptop 17 zoll windows 11 i7",
+    "Category": "Laptops",
+    "Entities": "{\"prozessor\":[\"Intel Core i7\"],\"betriebssystem\":[\"Windows\"],\"bildschirmgroesse\":[\"17 Zoll\"]}"
+  },
+  {
+    "ID": 583,
+    "Query": "android smartphone ohne vertrag",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"betriebssystem\":[\"Android\"]}"
+  },
+  {
+    "ID": 392,
+    "Query": "chromebook flip touchscreen",
+    "Category": "Laptops",
+    "Entities": "{\"ausstattung\":[\"2 in 1 Convertible\"],\"modellreihe\":[\"Chromebook\"]}"
+  },
+  {
+    "ID": 1167,
+    "Query": "pc gaming",
+    "Category": "Computer",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"]}"
+  },
+  {
+    "ID": 1256,
+    "Query": "4K-Monitor mit 144 Hz und 27 Zoll bis 500 Euro",
+    "Category": "Monitor",
+    "Entities": "{\"aufloesung\":[\"Ultra-HD\"],\"bildwiederholungsfrequenz\":[\"144 Hz\"],\"bildschirmgroesse\":[\"27 Zoll\"],\"preis\":[\"0\",\"500\"]}"
+  },
+  {
+    "ID": 657,
+    "Query": "smartphone ohne vertrag xiaomi",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Xiaomi\"]}"
+  },
+  {
+    "ID": 536,
+    "Query": "iphone 15 pro max h\u00fclle bmw",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPhone 15 Pro\"]}"
+  },
+  {
+    "ID": 339,
+    "Query": "notebook 15 zoll windows 11",
+    "Category": "Laptops",
+    "Entities": "{\"betriebssystem\":[\"Windows\"],\"bildschirmgroesse\":[\"15 Zoll\"]}"
+  },
+  {
+    "ID": 1283,
+    "Query": "Smartphone mit Dual-SIM und 5G",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"ausstattung\":[\"Dual-SIM\",\"5G\"]}"
+  },
+  {
+    "ID": 323,
+    "Query": "notebook 17 zoll acer",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Acer\"],\"bildschirmgroesse\":[\"17 Zoll\"]}"
+  },
+  {
+    "ID": 1262,
+    "Query": "Chromebook mit 8GB RAM und 128GB Speicher bis 500 Euro",
+    "Category": "Laptops",
+    "Entities": "{\"modellreihe\":[\"Chromebook\"],\"arbeitsspeicher\":[\"8 GB\"],\"preis\":[\"0\",\"500\"],\"speicherkapazitaet\":[\"128 GB\"]}"
+  },
+  {
+    "ID": 324,
+    "Query": "notebook 17 zoll microsoft office",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"17 Zoll\"]}"
+  },
+  {
+    "ID": 1309,
+    "Query": "Monitor mit 27 Zoll und USB-C Anschluss",
+    "Category": "Monitor",
+    "Entities": "{\"bildschirmgroesse\":[\"27 Zoll\"],\"anschluesse\":[\"USB-C\"]}"
+  },
+  {
+    "ID": 114,
+    "Query": "tv lowboard schwarz matt",
+    "Category": "Other",
+    "Entities": "{}"
+  },
+  {
+    "ID": 1128,
+    "Query": "komplett pc set computer",
+    "Category": "Computer",
+    "Entities": "{}"
+  },
+  {
+    "ID": 433,
+    "Query": "chromebook",
+    "Category": "Laptops",
+    "Entities": "{\"modellreihe\":[\"Chromebook\"]}"
+  },
+  {
+    "ID": 1295,
+    "Query": "32-Zoll-Monitor mit 75 Hz Bildwiederholungsrate",
+    "Category": "Monitor",
+    "Entities": "{\"bildschirmgroesse\":[\"32 Zoll\"],\"bildwiederholungsfrequenz\":[\"75 Hz\"]}"
+  },
+  {
+    "ID": 1285,
+    "Query": "Desktop-PC mit vorinstalliertem Linux-Betriebssystem",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Linux\"]}"
+  },
+  {
+    "ID": 1117,
+    "Query": "hp pc mit windows 11 home",
+    "Category": "Computer",
+    "Entities": "{\"marke\":[\"HP\"],\"betriebssystem\":[\"Windows\"]}"
+  },
+  {
+    "ID": 941,
+    "Query": "monitor gaming 144hz",
+    "Category": "Monitor",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"bildwiederholungsfrequenz\":[\"144 Hz\"]}"
+  },
+  {
+    "ID": 996,
+    "Query": "monitor 32 zoll 4k",
+    "Category": "Monitor",
+    "Entities": "{\"aufloesung\":[\"Ultra-HD \"],\"bildschirmgroesse\":[\"32 Zoll\"]}"
+  },
+  {
+    "ID": 814,
+    "Query": "tablet tastatur und maus samsung",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Samsung\"],\"ausstattung\":[\"Tastatur\"]}"
+  },
+  {
+    "ID": 1296,
+    "Query": "Smartwatch mit Standort und Herzfrequenzmesser",
+    "Category": "Wearables",
+    "Entities": "{\"ausstattung\":[\"GPS\"]}"
+  },
+  {
+    "ID": 1260,
+    "Query": "Desktop-PC f\u00fcr Videobearbeitung mit 32GB RAM bis 1500 Euro",
+    "Category": "Computer",
+    "Entities": "{\"anwendung\":[\"Videobearbeitung\"],\"arbeitsspeicher\":[\"32 GB\"],\"preis\":[\"0\",\"1500\"]}"
+  },
+  {
+    "ID": 32,
+    "Query": "fernseher 65 zoll samsung silber",
+    "Category": "Fernseher",
+    "Entities": "{\"farbe\":[\"silberfarben\"],\"marke\":[\"Samsung\"],\"bildschirmgroesse\":[\"65 - 69 Zoll\"]}"
+  },
+  {
+    "ID": 1277,
+    "Query": "Robustes Outdoor-Smartphone mit langer Akkulaufzeit",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"ausstattung\":[\"Lange Akkulaufzeit\"],\"typ\":[\"Outdoor-Smartphone\"]}"
+  },
+  {
+    "ID": 1257,
+    "Query": "Robustes Outdoor-Smartphone mit langer Akkulaufzeit unter 400 Euro",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"ausstattung\":[\"Lange Akkulaufzeit\"],\"typ\":[\"Outdoor-Smartphone\"],\"preis\":[\"0\",\"400\"]}"
+  },
+  {
+    "ID": 1302,
+    "Query": "Desktop-PC mit Wasserk\u00fchlung f\u00fcr Gaming",
+    "Category": "Computer",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"ausstattung\":[\"Wasserk\u00fchlung\"]}"
+  },
+  {
+    "ID": 693,
+    "Query": "telefon samsung galaxy s22",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"],\"modellreihe\":[\"Galaxy S22\"]}"
+  },
+  {
+    "ID": 661,
+    "Query": "mobiltelefon samsung",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"]}"
+  },
+  {
+    "ID": 58,
+    "Query": "fernseher 55 zoll samsung angebot",
+    "Category": "Fernseher",
+    "Entities": "{\"marke\":[\"Samsung\"],\"bildschirmgroesse\":[\"55 - 59 Zoll\"]}"
+  },
+  {
+    "ID": 224,
+    "Query": "laptop 15 zoll i5 16 gb ram",
+    "Category": "Laptops",
+    "Entities": "{\"prozessor\":[\"Intel Core i5\"],\"arbeitsspeicher\":[\"16 GB\"],\"bildschirmgroesse\":[\"15 Zoll\"]}"
+  },
+  {
+    "ID": 217,
+    "Query": "laptop 14 zoll windows 11",
+    "Category": "Laptops",
+    "Entities": "{\"betriebssystem\":[\"Windows\"],\"bildschirmgroesse\":[\"14 Zoll\"]}"
+  },
+  {
+    "ID": 541,
+    "Query": "smartphone ohne vertrag",
+    "Category": "Mobiltelefone",
+    "Entities": "{}"
+  },
+  {
+    "ID": 980,
+    "Query": "monitor 27 zoll curved",
+    "Category": "Monitor",
+    "Entities": "{\"art\":[\"curved\"],\"bildschirmgroesse\":[\"27 Zoll\"]}"
+  },
+  {
+    "ID": 1261,
+    "Query": "32-Zoll mit Smart-TV unter 400 Euro",
+    "Category": "Fernseher",
+    "Entities": "{\"bildschirmgroesse\":[\"32 Zoll\"],\"ausstattung\":[\"Smart TV\"],\"preis\":[\"0\",\"400\"]}"
+  },
+  {
+    "ID": 128,
+    "Query": "tv schrank 200 cm breit",
+    "Category": "Other",
+    "Entities": "{}"
+  }
+]

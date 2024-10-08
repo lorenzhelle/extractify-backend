@@ -1,0 +1,19 @@
+[
+    {
+        "id": "Kategorie",
+        "values": [
+            "Fernseher"
+        ]
+    },
+    {
+        "id": "Aufloesung",
+        "values": [
+            "Ultra-HD-8K",
+            "Ultra-HD-4K"
+        ]
+    },
+    {
+        "id": "Preis",
+        "maximum": 1500
+    }
+]

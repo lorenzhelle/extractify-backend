@@ -1,0 +1,1402 @@
+[
+  {
+    "ID": 275,
+    "Query": "macbook pro m2 15 zoll",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Apple\"],\"prozessor\":[\"M2\"],\"modellreihe\":[\"MacBook Pro\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"MacBook Pro\"]}, {\"id\": \"Prozessor\", \"values\": [\"M2\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}]"
+  },
+  {
+    "ID": 1254,
+    "Query": "Fernseher mit 8K unter 1500 Euro",
+    "Category": "Fernseher",
+    "Entities": "{\"aufloesung\":[\"Ultra-HD-8K\"],\"preis\":[\"0\",\"1500\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Aufloesung\", \"values\": [\"Ultra-HD-8K\"]}, {\"id\": \"Preis\", \"maximum\": 1500}]"
+  },
+  {
+    "ID": 996,
+    "Query": "monitor 32 zoll 4k",
+    "Category": "Monitor",
+    "Entities": "{\"aufloesung\":[\"Ultra-HD \"],\"bildschirmgroesse\":[\"32 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"32 Zoll\"]}, {\"id\": \"Aufloesung\", \"values\": [\"Ultra-HD-4K\"]}]"
+  },
+  {
+    "ID": 360,
+    "Query": "notebook 15 zoll betriebssystem microsoft",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"15 Zoll\"], \"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 210,
+    "Query": "laptop 15 zoll angebote windows 11",
+    "Category": "Laptops",
+    "Entities": "{\"betriebssystem\":[\"Windows\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 89,
+    "Query": "tv lowboard",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}]"
+  },
+  {
+    "ID": 1037,
+    "Query": "cd laufwerk f\u00fcr laptop",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Ausstattung\", \"values\": [\"CD-Laufwerk\"]}]"
+  },
+  {
+    "ID": 433,
+    "Query": "chromebook",
+    "Category": "Laptops",
+    "Entities": "{\"modellreihe\":[\"Chromebook\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\", \"Computer\"]}]"
+  },
+  {
+    "ID": 1046,
+    "Query": "computer pc",
+    "Category": "Computer",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}]"
+  },
+  {
+    "ID": 43,
+    "Query": "fernseher 65 zoll lg triple tuner",
+    "Category": "Fernseher",
+    "Entities": "{\"marke\":[\"LG\"],\"tuner\":[\"Triple-Tuner\"],\"bildschirmgroesse\":[\"65 - 69 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"65 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"LG\"]}]"
+  },
+  {
+    "ID": 480,
+    "Query": "iphone 15 pro max case",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPhone 15 Pro Max\"]}]"
+  },
+  {
+    "ID": 482,
+    "Query": "iphone 15 pro max ladeger\u00e4t",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"iPhone 15 Pro Max\"]}]"
+  },
+  {
+    "ID": 695,
+    "Query": "samsung galaxy s24 ultra",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"],\"modellreihe\":[\"Galaxy S24\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Modellreihe\", \"values\": [\"Galaxy S24\"]}]"
+  },
+  {
+    "ID": 945,
+    "Query": "monitor gaming 24 zoll",
+    "Category": "Monitor",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"bildschirmgroesse\":[\"24 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"24 Zoll\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 1218,
+    "Query": "pc komplett set gaming otto",
+    "Category": "Computer",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 941,
+    "Query": "monitor gaming 144hz",
+    "Category": "Monitor",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"bildwiederholungsfrequenz\":[\"144 Hz\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Ausstattung\", \"values\": [\"gaming\"]}, {\"id\": \"Bildwiederholungsfrequenz\", \"values\": [\"144 Hz\"]}]"
+  },
+  {
+    "ID": 877,
+    "Query": "ipad air 5 generation panzerglas",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"iPad\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPad Air\"]}]"
+  },
+  {
+    "ID": 182,
+    "Query": "laptop 17 zoll windows 11 i7",
+    "Category": "Laptops",
+    "Entities": "{\"prozessor\":[\"Intel Core i7\"],\"betriebssystem\":[\"Windows\"],\"bildschirmgroesse\":[\"17 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"17 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}, {\"id\": \"Prozessor\", \"values\": [\"Intel Core i7\"]}]"
+  },
+  {
+    "ID": 387,
+    "Query": "chromebook touchscreen",
+    "Category": "Laptops",
+    "Entities": "{\"ausstattung\":[\"Touch Display\"],\"modellreihe\":[\"Chromebook\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\", \"Computer\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Touch Display\"]}, {\"id\": \"Modellreihe\", \"values\": [\"Chromebook\"]}]"
+  },
+  {
+    "ID": 771,
+    "Query": "Tablet",
+    "Category": "Tablets",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}]"
+  },
+  {
+    "ID": 1282,
+    "Query": "Chromebook mit 6GB RAM und 512GB Speicher",
+    "Category": "Laptops",
+    "Entities": "{\"modellreihe\":[\"Chromebook\"],\"arbeitsspeicher\":[\"6 GB\"],\"speicherkapazitaet\":[\"512 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"6 GB\"]}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"512 GB\"]}]"
+  },
+  {
+    "ID": 526,
+    "Query": "iphone 15 pro max ladeger\u00e4t",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"iPhone 15 Pro Max\"]}]"
+  },
+  {
+    "ID": 88,
+    "Query": "tv bank",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}]"
+  },
+  {
+    "ID": 381,
+    "Query": "notebook 15 zoll lenovo",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Lenovo\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"Lenovo\"]}]"
+  },
+  {
+    "ID": 1261,
+    "Query": "32-Zoll mit Smart-TV unter 400 Euro",
+    "Category": "Fernseher",
+    "Entities": "{\"bildschirmgroesse\":[\"32 Zoll\"],\"ausstattung\":[\"Smart TV\"],\"preis\":[\"0\",\"400\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\"}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"32 Zoll\"]}, {\"id\": \"Marke\"}, {\"id\": \"Displaytechnologie\"}, {\"id\": \"Ausstattung\", \"values\": [\"Smart-TV\"]}, {\"id\": \"Aufloesung\"}, {\"id\": \"Farbe\"}, {\"id\": \"Zubehoerfuer\"}, {\"id\": \"Betriebssystem\"}, {\"id\": \"Prozessor\"}, {\"id\": \"Arbeitsspeicher\"}, {\"id\": \"Speicherkapazitaet\"}, {\"id\": \"Modellreihe\"}, {\"id\": \"Grafikkarte\"}, {\"id\": \"Bildwiederholungsfrequenz\"}, {\"id\": \"Art\"}, {\"id\": \"Reaktionszeit\"}, {\"id\": \"Preis\", \"maximum\": 400}]"
+  },
+  {
+    "ID": 1283,
+    "Query": "Smartphone mit Dual-SIM und 5G",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"ausstattung\":[\"Dual-SIM\",\"5G\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Dual-SIM\", \"mobiles Internet\", \"5G\"]}]"
+  },
+  {
+    "ID": 83,
+    "Query": "tv board",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}]"
+  },
+  {
+    "ID": 1273,
+    "Query": "Gaming-PC mit RTX 3070 und 512GB SSD",
+    "Category": "Computer",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"grafikkarte\":[\"RTX 3070\"],\"ausstattung\":[\"SSD-Festplatte\"],\"speicherkapazitaet\":[\"512 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Prozessor\"}, {\"id\": \"Arbeitsspeicher\"}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"512 GB\"]}, {\"id\": \"Grafikkarte\", \"values\": [\"RTX 3070\"]}]"
+  },
+  {
+    "ID": 1285,
+    "Query": "Desktop-PC mit vorinstalliertem Linux-Betriebssystem",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Linux\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Linux\"]}]"
+  },
+  {
+    "ID": 1311,
+    "Query": "Laptop mit 13 Zoll Bildschirm und MacOS",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"13 Zoll\"],\"betriebssystem\":[\"MacOS\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"13 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"MacOS\"]}]"
+  },
+  {
+    "ID": 34,
+    "Query": "fernseher 65 zoll lg",
+    "Category": "Fernseher",
+    "Entities": "{\"marke\":[\"LG\"],\"bildschirmgroesse\":[\"65 - 69 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"65 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"LG\"]}]"
+  },
+  {
+    "ID": 1293,
+    "Query": "Gaming-Laptop mit RTX 3060 und 16GB RAM",
+    "Category": "Laptops",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"grafikkarte\":[\"RTX 3060\"],\"arbeitsspeicher\":[\"16 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Prozessor\", \"values\": [\"RTX 3060\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"16 GB\"]}]"
+  },
+  {
+    "ID": 874,
+    "Query": "ipad air 5 generation apple",
+    "Category": "Tablets",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPad Air\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPad Air\"]}]"
+  },
+  {
+    "ID": 23,
+    "Query": "fernseher 65 zoll samsung",
+    "Category": "Fernseher",
+    "Entities": "{\"marke\":[\"Samsung\"],\"bildschirmgroesse\":[\"65 - 69 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"65 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}]"
+  },
+  {
+    "ID": 1256,
+    "Query": "4K-Monitor mit 144 Hz und 27 Zoll bis 500 Euro",
+    "Category": "Monitor",
+    "Entities": "{\"aufloesung\":[\"Ultra-HD\"],\"bildwiederholungsfrequenz\":[\"144 Hz\"],\"bildschirmgroesse\":[\"27 Zoll\"],\"preis\":[\"0\",\"500\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Aufloesung\", \"values\": [\"Ultra-HD-4K\"]}, {\"id\": \"Bildwiederholungsfrequenz\", \"values\": [\"144 Hz\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"27 Zoll\", \"30 - 54 Zoll\"]}, {\"id\": \"Preis\", \"maximum\": 500}]"
+  },
+  {
+    "ID": 937,
+    "Query": "monitor gaming 240 hz",
+    "Category": "Monitor",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"bildwiederholungsfrequenz\":[\"240 Hz\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Ausstattung\", \"values\": [\"gaming\"]}, {\"id\": \"Bildwiederholungsfrequenz\", \"values\": [\"240 Hz\"]}]"
+  },
+  {
+    "ID": 166,
+    "Query": "laptop 17 zoll",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"17 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"17 Zoll\"]}]"
+  },
+  {
+    "ID": 1308,
+    "Query": "Desktop-PC mit Dual-Boot Windows und Linux",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Windows\",\"Linux\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\", \"Linux\"]}]"
+  },
+  {
+    "ID": 913,
+    "Query": "ipad pro 2022 12,9 h\u00fclle mit tastatur mit ipad",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPad Air\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"iPad\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPad Pro\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 1225,
+    "Query": "windows 11 rechner",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 305,
+    "Query": "macbook air m2 15 zoll",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Apple\"],\"prozessor\":[\"M2\"],\"modellreihe\":[\"MacBook Air\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"MacBook Air\"]}, {\"id\": \"Prozessor\", \"values\": [\"M2\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}]"
+  },
+  {
+    "ID": 289,
+    "Query": "macbook air m2 512 gb 16 gb 15 zoll",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Apple\"],\"prozessor\":[\"M2\"],\"modellreihe\":[\"MacBook Air\"],\"arbeitsspeicher\":[\"16 GB\"],\"bildschirmgroesse\":[\"15 Zoll\"],\"speicherkapazitaet\":[\"512 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"MacBook Air\"]}, {\"id\": \"Prozessor\", \"values\": [\"M2\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"16 GB\"]}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"512 GB\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}]"
+  },
+  {
+    "ID": 528,
+    "Query": "iphone 15 pro max handyh\u00fclle",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPhone 15 Pro\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPhone 15 Pro Max\"]}]"
+  },
+  {
+    "ID": 1284,
+    "Query": "Laptop mit langer Akkulaufzeit f\u00fcr Studenten",
+    "Category": "Laptops",
+    "Entities": "{\"zielgruppe\":[\"Studenten\"],\"ausstattung\":[\"Lange Akkulaufzeit\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Ausstattung\", \"values\": [\"lange Akkulaufzeit\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"Studenten\"]}]"
+  },
+  {
+    "ID": 212,
+    "Query": "laptop 17 zoll windows 11",
+    "Category": "Laptops",
+    "Entities": "{\"betriebssystem\":[\"Windows\"],\"bildschirmgroesse\":[\"17 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"17 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 1051,
+    "Query": "computer pc angebot",
+    "Category": "Computer",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}]"
+  },
+  {
+    "ID": 638,
+    "Query": "ohne vertrag smartphones",
+    "Category": "Mobiltelefone",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"mobiles Internet\"]}]"
+  },
+  {
+    "ID": 1253,
+    "Query": "Gaming-PC mit RTX 4090 und 1TB SSD bis 2000 Euro",
+    "Category": "Computer",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"grafikkarte\":[\"RTX 4090\"],\"ausstattung\":[\"SSD-Festplatte\"],\"preis\":[\"0\",\"2000\"],\"speicherkapazitaet\":[\"1 TB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Grafikkarte\", \"values\": [\"RTX 4090\"]}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"1 TB\"]}, {\"id\": \"Preis\", \"maximum\": 2000}]"
+  },
+  {
+    "ID": 964,
+    "Query": "monitor gaming 4k 240 hz",
+    "Category": "Monitor",
+    "Entities": "{\"aufloesung\":[\"Ultra-HD \"],\"zubehoerfuer\":[\"Gaming\"],\"bildwiederholungsfrequenz\":[\"240 Hz\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Aufloesung\", \"values\": [\"Ultra-HD-4K\"]}, {\"id\": \"Bildwiederholungsfrequenz\", \"values\": [\"240 Hz\"]}, {\"id\": \"Art\", \"values\": [\"gaming\"]}]"
+  },
+  {
+    "ID": 324,
+    "Query": "notebook 17 zoll microsoft office",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"17 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"17 Zoll\"]}]"
+  },
+  {
+    "ID": 1278,
+    "Query": "Tablet f\u00fcr Zeichnen mit Stiftunterst\u00fctzung",
+    "Category": "Tablets",
+    "Entities": "{\"anwendung\":[\"Zeichnen\"],\"ausstattung\":[\"Stifteingabe\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Stifteingabe\"]}]"
+  },
+  {
+    "ID": 61,
+    "Query": "fernseher 55 zoll samsung 8k",
+    "Category": "Fernseher",
+    "Entities": "{\"marke\":[\"Samsung\"],\"aufloesung\":[\"Ultra-HD-8K\"],\"bildschirmgroesse\":[\"55 - 59 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"55 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Aufloesung\", \"values\": [\"Ultra-HD-8K\"]}]"
+  },
+  {
+    "ID": 661,
+    "Query": "mobiltelefon samsung",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}]"
+  },
+  {
+    "ID": 1019,
+    "Query": "computer pc komplettset angebot mit windows 11",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows 11\"]}]"
+  },
+  {
+    "ID": 767,
+    "Query": "handy samsung s23 ultra",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"],\"modellreihe\":[\"Galaxy S23\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Modellreihe\", \"values\": [\"Galaxy S23\"]}]"
+  },
+  {
+    "ID": 1111,
+    "Query": "computer pc komplettset angebot mit windows 11",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows 11\"]}]"
+  },
+  {
+    "ID": 1266,
+    "Query": "Tablet mit abnehmbarer Tastatur und Windows-Betriebssystem bis 600 Euro",
+    "Category": "Tablets",
+    "Entities": "{\"ausstattung\":[\"Tastatur\"],\"betriebssystem\":[\"Windows\"],\"preis\":[\"0\",\"600\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Ausstattung\", \"values\": [\"abnehmbarer Tastatur\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}, {\"id\": \"Preis\", \"maximum\": 600}]"
+  },
+  {
+    "ID": 626,
+    "Query": "mobiltelefon duo",
+    "Category": "Mobiltelefone",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}]"
+  },
+  {
+    "ID": 1259,
+    "Query": "MacBook Pro mit M2-Chip und 16GB RAM unter 2000 Euro",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"MacBook Pro\"],\"prozessor\":[\"M2\"],\"arbeitsspeicher\":[\"16 GB\"],\"preis\":[\"0\",\"2000\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"MacBook Pro\"]}, {\"id\": \"Prozessor\", \"values\": [\"M2\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"16 GB\"]}, {\"id\": \"Preis\", \"maximum\": 2000}]"
+  },
+  {
+    "ID": 1196,
+    "Query": "pc gaming i9 4090 rtx 64 gb",
+    "Category": "Computer",
+    "Entities": "{\"prozessor\":[\"Intel Core i9\"],\"zubehoerfuer\":[\"Gaming\"],\"arbeitsspeicher\":[\"64 GB\"],\"grafikkarte\":[\"GeForce RTX 4090\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Prozessor\", \"values\": [\"Intel Core i9\"]}, {\"id\": \"Grafikkarte\", \"values\": [\"RTX 4090\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"64 GB\"]}]"
+  },
+  {
+    "ID": 1055,
+    "Query": "computer pc komplettset angebot apple",
+    "Category": "Computer",
+    "Entities": "{\"marke\":[\"Apple\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}]"
+  },
+  {
+    "ID": 642,
+    "Query": "handys ohne vertrag xiaomi",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Xiaomi\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Xiaomi\"]}]"
+  },
+  {
+    "ID": 1163,
+    "Query": "pc lautsprecher",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}]"
+  },
+  {
+    "ID": 1294,
+    "Query": "All-in-One-Desktop-PC mit Touchscreen",
+    "Category": "Computer",
+    "Entities": "{\"ausstattung\":[\"Touch Display\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Touch Display\"]}, {\"id\": \"Art\", \"values\": [\"All-in-One\"]}]"
+  },
+  {
+    "ID": 714,
+    "Query": "samsung galaxy s24 ultra h\u00fclle 360",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Samsung\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Modellreihe\", \"values\": [\"Galaxy S24\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"H\\u00fclle\"]}]"
+  },
+  {
+    "ID": 1262,
+    "Query": "Chromebook mit 8GB RAM und 128GB Speicher bis 500 Euro",
+    "Category": "Laptops",
+    "Entities": "{\"modellreihe\":[\"Chromebook\"],\"arbeitsspeicher\":[\"8 GB\"],\"preis\":[\"0\",\"500\"],\"speicherkapazitaet\":[\"128 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Chromebook\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"8 GB\"]}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"128 GB\"]}, {\"id\": \"Preis\", \"maximum\": 500}]"
+  },
+  {
+    "ID": 838,
+    "Query": "tablet apple mit tastatur rosegold",
+    "Category": "Tablets",
+    "Entities": "{\"farbe\":[\"goldfarben\"],\"marke\":[\"Apple\"],\"ausstattung\":[\"Tastatur\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Tastatur\"]}, {\"id\": \"Farbe\", \"values\": [\"ros\\u00e9gold\"]}]"
+  },
+  {
+    "ID": 367,
+    "Query": "laptop 15 zoll",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}]"
+  },
+  {
+    "ID": 1012,
+    "Query": "computer schreibtisch",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}]"
+  },
+  {
+    "ID": 970,
+    "Query": "monitor 27 zoll curved",
+    "Category": "Monitor",
+    "Entities": "{\"art\":[\"curved\"],\"bildschirmgroesse\":[\"27 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"27 Zoll\"]}, {\"id\": \"Art\", \"values\": [\"curved\"]}]"
+  },
+  {
+    "ID": 124,
+    "Query": "tv schrank mit kamin",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 1205,
+    "Query": "pc komplett set i7",
+    "Category": "Computer",
+    "Entities": "{\"prozessor\":[\"Intel Core i7\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Prozessor\", \"values\": [\"Intel Core i7\"]}]"
+  },
+  {
+    "ID": 935,
+    "Query": "monitor 120 hz",
+    "Category": "Monitor",
+    "Entities": "{\"bildwiederholungsfrequenz\":[\"120 Hz\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildwiederholungsfrequenz\", \"values\": [\"120 Hz\"]}]"
+  },
+  {
+    "ID": 224,
+    "Query": "laptop 15 zoll i5 16 gb ram",
+    "Category": "Laptops",
+    "Entities": "{\"prozessor\":[\"Intel Core i5\"],\"arbeitsspeicher\":[\"16 GB\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Prozessor\", \"values\": [\"Intel Core i5\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"16 GB\"]}]"
+  },
+  {
+    "ID": 1250,
+    "Query": "Laptop mit 16 Zoll Bildschirm und 8GB RAM bis 800 Euro",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"16 Zoll\"],\"arbeitsspeicher\":[\"8 GB\"],\"preis\":[\"0\",\"800\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"16 Zoll\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"8 GB\"]}, {\"id\": \"Preis\", \"maximum\": 800}]"
+  },
+  {
+    "ID": 662,
+    "Query": "mobiltelefon samsung galaxy",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"],\"modellreihe\":[\"Galaxy\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\", \"Galaxy\"]}]"
+  },
+  {
+    "ID": 237,
+    "Query": "macbook air m1",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Apple\"],\"prozessor\":[\"M1\"],\"modellreihe\":[\"MacBook Air\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"MacBook Air\"]}, {\"id\": \"Prozessor\", \"values\": [\"M1\"]}]"
+  },
+  {
+    "ID": 56,
+    "Query": "fernseher 55 zoll samsung",
+    "Category": "Fernseher",
+    "Entities": "{\"marke\":[\"Samsung\"],\"bildschirmgroesse\":[\"55 - 59 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"55 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}]"
+  },
+  {
+    "ID": 20,
+    "Query": "fernseher 65 zoll angebot",
+    "Category": "Fernseher",
+    "Entities": "{\"bildschirmgroesse\":[\"65 - 69 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"65 Zoll\"]}]"
+  },
+  {
+    "ID": 759,
+    "Query": "s 23 ultra smartphone",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"],\"modellreihe\":[\"Galaxy S23\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\"}, {\"id\": \"Displaytechnologie\"}, {\"id\": \"Ausstattung\", \"values\": [\"Smart-TV\"]}, {\"id\": \"Aufloesung\"}, {\"id\": \"Farbe\"}, {\"id\": \"Zubehoerfuer\"}, {\"id\": \"Betriebssystem\"}, {\"id\": \"Prozessor\"}, {\"id\": \"Arbeitsspeicher\"}, {\"id\": \"Speicherkapazitaet\"}, {\"id\": \"Modellreihe\", \"values\": [\"s 23\"]}, {\"id\": \"Grafikkarte\"}, {\"id\": \"Bildwiederholungsfrequenz\"}, {\"id\": \"Art\"}, {\"id\": \"Reaktionszeit\"}, {\"id\": \"Preis\"}]"
+  },
+  {
+    "ID": 1252,
+    "Query": "Smartphone mit guter Kameraqualit\u00e4t zwischen 500 und 1000 Euro",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"preis\":[\"500\",\"1000\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"kabelloses Laden\", \"Smart-TV\"]}, {\"id\": \"Preis\", \"minimum\": 500, \"maximum\": 1000}]"
+  },
+  {
+    "ID": 1083,
+    "Query": "desktop pc hp",
+    "Category": "Computer",
+    "Entities": "{\"marke\":[\"HP\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"HP\"]}]"
+  },
+  {
+    "ID": 521,
+    "Query": "iphone 15 pro max 512gb",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPhone 15 Pro\"],\"speicherkapazitaet\":[\"512 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPhone 15 Pro Max\"]}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"512 GB\"]}]"
+  },
+  {
+    "ID": 432,
+    "Query": "chromebook plus intel core",
+    "Category": "Laptops",
+    "Entities": "{\"prozessor\":[\"Intel\"],\"modellreihe\":[\"Chromebook\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\"}, {\"id\": \"Betriebssystem\", \"values\": [\"Chromebook\"]}, {\"id\": \"Prozessor\", \"values\": [\"Intel Core\"]}]"
+  },
+  {
+    "ID": 1172,
+    "Query": "pc gaming tisch",
+    "Category": "Other",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 1286,
+    "Query": "Tablet mit abnehmbarer Tastatur und Android-Betriebssystem",
+    "Category": "Tablets",
+    "Entities": "{\"ausstattung\":[\"Tastatur\"],\"betriebssystem\":[\"Android\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Ausstattung\", \"values\": [\"abnehmbarer Tastatur\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Android\"]}]"
+  },
+  {
+    "ID": 358,
+    "Query": "notebook 15 zoll touchscreen",
+    "Category": "Laptops",
+    "Entities": "{\"ausstattung\":[\"Touch Display\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Touch Display\"]}]"
+  },
+  {
+    "ID": 694,
+    "Query": "Samsung Galaxy",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"],\"modellreihe\":[\"Galaxy\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\"}, {\"id\": \"Bildschirmgroesse\"}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Displaytechnologie\"}, {\"id\": \"Ausstattung\"}, {\"id\": \"Aufloesung\"}, {\"id\": \"Farbe\"}, {\"id\": \"Zubehoerfuer\"}, {\"id\": \"Betriebssystem\"}, {\"id\": \"Prozessor\"}, {\"id\": \"Arbeitsspeicher\"}, {\"id\": \"Speicherkapazitaet\"}, {\"id\": \"Modellreihe\", \"values\": [\"Galaxy\"]}, {\"id\": \"Grafikkarte\"}, {\"id\": \"Bildwiederholungsfrequenz\"}, {\"id\": \"Art\"}, {\"id\": \"Reaktionszeit\"}, {\"id\": \"Preis\"}]"
+  },
+  {
+    "ID": 1128,
+    "Query": "komplett pc set computer",
+    "Category": "Computer",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}]"
+  },
+  {
+    "ID": 1255,
+    "Query": "Notebook mit Touchscreen und 360-Grad-Scharnier unter 700 Euro",
+    "Category": "Laptops",
+    "Entities": "{\"ausstattung\":[\"Touch Display\",\"2 in 1 Convertible\"],\"preis\":[\"0\",\"700\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Touch Display\", \"2 in 1 Convertible\"]}, {\"id\": \"Preis\", \"maximum\": 700}]"
+  },
+  {
+    "ID": 384,
+    "Query": "notebook 15 zoll hp",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"HP\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"HP\"]}]"
+  },
+  {
+    "ID": 1292,
+    "Query": "Smartphone mit AMOLED-Display und 128GB Speicher",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"speicherkapazitaet\":[\"128 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Displaytechnologie\", \"values\": [\"AMOLED\"]}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"128 GB\"]}]"
+  },
+  {
+    "ID": 1287,
+    "Query": "Monitor mit integriertem Lautsprecher",
+    "Category": "Monitor",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Ausstattung\", \"values\": [\"integrierter Lautsprecher\"]}]"
+  },
+  {
+    "ID": 1270,
+    "Query": "Laptop mit 13 Zoll Bildschirm und 16GB RAM bis 1000 Euro",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"13 Zoll\"],\"arbeitsspeicher\":[\"16 GB\"],\"preis\":[\"0\",\"1000\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"13 Zoll\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"16 GB\"]}, {\"id\": \"Preis\", \"maximum\": 1000}]"
+  },
+  {
+    "ID": 595,
+    "Query": "smartphone samsung galaxy",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"],\"modellreihe\":[\"Galaxy\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\", \"Galaxy\"]}]"
+  },
+  {
+    "ID": 1260,
+    "Query": "Desktop-PC f\u00fcr Videobearbeitung mit 32GB RAM bis 1500 Euro",
+    "Category": "Computer",
+    "Entities": "{\"anwendung\":[\"Videobearbeitung\"],\"arbeitsspeicher\":[\"32 GB\"],\"preis\":[\"0\",\"1500\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"32 GB\"]}, {\"id\": \"Preis\", \"maximum\": 1500}]"
+  },
+  {
+    "ID": 1202,
+    "Query": "pc komplett set windows 11",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 1312,
+    "Query": "Ich such ein Tablet mit 9 Zoll und 128 Speicher",
+    "Category": "Tablets",
+    "Entities": "{\"bildschirmgroesse\":[\"9 Zoll\"],\"speicherkapazitaet\":[\"128 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"9 Zoll\"]}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"128 GB\"]}]"
+  },
+  {
+    "ID": 32,
+    "Query": "fernseher 65 zoll samsung silber",
+    "Category": "Fernseher",
+    "Entities": "{\"farbe\":[\"silberfarben\"],\"marke\":[\"Samsung\"],\"bildschirmgroesse\":[\"65 - 69 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"65 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Farbe\", \"values\": [\"silberfarben\"]}]"
+  },
+  {
+    "ID": 817,
+    "Query": "tablet apple mit tastatur",
+    "Category": "Tablets",
+    "Entities": "{\"marke\":[\"Apple\"],\"ausstattung\":[\"Tastatur\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Tastatur\"]}]"
+  },
+  {
+    "ID": 1269,
+    "Query": "Fernseher mit eingebauter Soundbar und 55 Zoll Display unter 1200 Euro",
+    "Category": "Fernseher",
+    "Entities": "{\"bildschirmgroesse\":[\"55 - 59 Zoll\"],\"ausstattung\":[\"Eingebaute Soundbar\"],\"preis\":[\"0\",\"1200\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"55 Zoll\"]}, {\"id\": \"Preis\", \"maximum\": 1200}]"
+  },
+  {
+    "ID": 443,
+    "Query": "tablet lte",
+    "Category": "Tablets",
+    "Entities": "{\"ausstattung\":[\"mobiles Internet\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"mobiles Internet\", \"values\": [\"LTE\"]}]"
+  },
+  {
+    "ID": 330,
+    "Query": "notebook 17 zoll rtx 4070",
+    "Category": "Laptops",
+    "Entities": "{\"grafikkarte\":[\"GeForce RTX 4070\"],\"bildschirmgroesse\":[\"17 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"17 Zoll\"]}, {\"id\": \"Grafikkarte\", \"values\": [\"RTX 4070\"]}]"
+  },
+  {
+    "ID": 1156,
+    "Query": "PC",
+    "Category": "Computer",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}]"
+  },
+  {
+    "ID": 175,
+    "Query": "laptop 17 zoll core i7",
+    "Category": "Laptops",
+    "Entities": "{\"prozessor\":[\"Intel Core i7\"],\"bildschirmgroesse\":[\"17 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"17 Zoll\"]}, {\"id\": \"Prozessor\", \"values\": [\"Intel Core i7\"]}]"
+  },
+  {
+    "ID": 1215,
+    "Query": "pc komplett set gaming 2 monitore",
+    "Category": "Computer",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Gaming\"]}, {\"id\": \"AnzahlMonitore\", \"values\": [\"2\"]}]"
+  },
+  {
+    "ID": 114,
+    "Query": "tv lowboard schwarz matt",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Farbe\", \"values\": [\"schwarz\"]}, {\"id\": \"Oberflaeche\", \"values\": [\"matt\"]}]"
+  },
+  {
+    "ID": 19,
+    "Query": "fernseher 65 zoll android tv",
+    "Category": "Fernseher",
+    "Entities": "{\"ausstattung\":[\"Android TV\"],\"bildschirmgroesse\":[\"65 - 69 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"65 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Android TV\"]}]"
+  },
+  {
+    "ID": 1109,
+    "Query": "computer pc komplettset angebot windows 11",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows 11\"]}]"
+  },
+  {
+    "ID": 1265,
+    "Query": "Desktop-PC mit vorinstalliertem Linux-Betriebssystem unter 800 Euro",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Linux\"],\"preis\": [\"0\",\"800\"] }",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Linux\"]}, {\"id\": \"Preis\", \"maximum\": 800}]"
+  },
+  {
+    "ID": 1299,
+    "Query": "Tablet mit 11 Zoll Display und LTE-Unterst\u00fctzung",
+    "Category": "Tablets",
+    "Entities": "{\"bildschirmgroesse\":[\"11 Zoll\"],\"ausstattung\":[\"mobiles Internet\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"11 Zoll\"]}, {\"id\": \"Ausstattung\", \"values\": [\"mobiles Internet\"]}]"
+  },
+  {
+    "ID": 897,
+    "Query": "ipad pro 2022 tastatur",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Apple\"],\"ausstattung\":[\"Tastatur\"],\"modellreihe\":[\"iPad Pro\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"iPad\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPad Pro\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"Tastatur\"]}]"
+  },
+  {
+    "ID": 875,
+    "Query": "ipad air 5 generation h\u00fclle tastatur",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPad Air\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"iPad\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPad Air\"]}]"
+  },
+  {
+    "ID": 48,
+    "Query": "fernseher 55 zoll philips",
+    "Category": "Fernseher",
+    "Entities": "{\"marke\":[\"Philips\"],\"bildschirmgroesse\":[\"55 - 59 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"55 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"Philips\"]}]"
+  },
+  {
+    "ID": 163,
+    "Query": "laptop tasche",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}]"
+  },
+  {
+    "ID": 582,
+    "Query": "nokia smartphone ohne vertrag",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Nokia\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Nokia\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Smart-TV\"]}]"
+  },
+  {
+    "ID": 385,
+    "Query": "notebooks 15 zoll",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}]"
+  },
+  {
+    "ID": 1295,
+    "Query": "32-Zoll-Monitor mit 75 Hz Bildwiederholungsrate",
+    "Category": "Monitor",
+    "Entities": "{\"bildschirmgroesse\":[\"32 Zoll\"],\"bildwiederholungsfrequenz\":[\"75 Hz\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"32 Zoll\"]}, {\"id\": \"Bildwiederholungsfrequenz\", \"values\": [\"75 Hz\"]}]"
+  },
+  {
+    "ID": 702,
+    "Query": "samsung galaxy s23 ultra smartphone",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"],\"modellreihe\":[\"Galaxy S23\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Modellreihe\", \"values\": [\"Galaxy S23\"]}]"
+  },
+  {
+    "ID": 1267,
+    "Query": "24-Zoll-Monitor mit integriertem Lautsprecher unter 300 Euro",
+    "Category": "Monitor",
+    "Entities": "{\"bildschirmgroesse\":[\"24 Zoll\"],\"preis\": [\"0\",\"300\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"24 Zoll\"]}, {\"id\": \"Preis\", \"maximum\": 300}]"
+  },
+  {
+    "ID": 1136,
+    "Query": "laptop 32 gb ram",
+    "Category": "Laptops",
+    "Entities": "{\"arbeitsspeicher\":[\"32 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"32 GB\"]}]"
+  },
+  {
+    "ID": 1290,
+    "Query": "Laptop mit 15 Zoll Bildschirm und Intel Core i7",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"15 Zoll\"],\"prozessor\":[\"Intel Core i7\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Prozessor\", \"values\": [\"Intel Core i7\"]}]"
+  },
+  {
+    "ID": 1271,
+    "Query": "Tablet mit 12 Zoll Display und iOS-Betriebssystem unter 800 Euro",
+    "Category": "Tablets",
+    "Entities": "{\"bildschirmgroesse\":[\"12 Zoll\"],\"betriebssystem\":[\"iOS\"],\"preis\": [\"0\",\"800\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"12 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"iOS\"]}, {\"id\": \"Preis\", \"maximum\": 800}]"
+  },
+  {
+    "ID": 1264,
+    "Query": "Laptop mit guter Akkulaufzeit bis 1000 Euro",
+    "Category": "Laptops",
+    "Entities": "{\"preis\":[\"0\",\"1000\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Preis\", \"maximum\": 1000}]"
+  },
+  {
+    "ID": 460,
+    "Query": "asus chromebook plus",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Asus\"],\"modellreihe\":[\"Chromebook\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\", \"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Asus\"]}, {\"id\": \"Modellreihe\", \"values\": [\"Chromebook\"]}]"
+  },
+  {
+    "ID": 53,
+    "Query": "fernseher 55 zoll ambilight",
+    "Category": "Fernseher",
+    "Entities": "{\"ausstattung\":[\"Ambilight\"],\"bildschirmgroesse\":[\"55 - 59 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"55 Zoll\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Ambilight\"]}]"
+  },
+  {
+    "ID": 1117,
+    "Query": "hp pc mit windows 11 home",
+    "Category": "Computer",
+    "Entities": "{\"marke\":[\"HP\"],\"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"HP\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows 11\"]}]"
+  },
+  {
+    "ID": 1251,
+    "Query": "Tablet mit 10 Zoll Display und Android-Betriebssystem unter 300 Euro",
+    "Category": "Tablets",
+    "Entities": "{\"bildschirmgroesse\":[\"10 Zoll\"],\"betriebssystem\":[\"Android\"], \"preis\": [\"0\",\"300\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"10 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Android\"]}, {\"id\": \"Preis\", \"maximum\": 300}]"
+  },
+  {
+    "ID": 1108,
+    "Query": "pc windows 11",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 170,
+    "Query": "laptop 17 zoll gaming",
+    "Category": "Laptops",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"bildschirmgroesse\":[\"17 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"17 Zoll\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 536,
+    "Query": "iphone 15 pro max h\u00fclle bmw",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPhone 15 Pro\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Andere\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\", \"BMW\"]}]"
+  },
+  {
+    "ID": 908,
+    "Query": "ipad pro 2022 12,9 zoll h\u00fclle",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPad Air\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"iPad\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPad Pro\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"12 Zoll\"]}]"
+  },
+  {
+    "ID": 1177,
+    "Query": "pc gaming stuhl",
+    "Category": "Other",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 772,
+    "Query": "tablet samsung",
+    "Category": "Tablets",
+    "Entities": "{\"marke\":[\"Samsung\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}]"
+  },
+  {
+    "ID": 814,
+    "Query": "tablet tastatur und maus samsung",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Samsung\"],\"ausstattung\":[\"Tastatur\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Tastatur\", \"Maus\"]}]"
+  },
+  {
+    "ID": 1291,
+    "Query": "Tablet mit 8 Zoll Display und Wi-Fi only",
+    "Category": "Tablets",
+    "Entities": "{\"bildschirmgroesse\":[\"kleiner als 9 Zoll\"],\"ausstattung\":[\"Wifi\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"8 Zoll\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Wi-Fi\"]}]"
+  },
+  {
+    "ID": 784,
+    "Query": "tablet samsung mit tastatur",
+    "Category": "Tablets",
+    "Entities": "{\"marke\":[\"Samsung\"],\"ausstattung\":[\"Tastatur\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Tastatur\"]}]"
+  },
+  {
+    "ID": 1296,
+    "Query": "Smartwatch mit Standort und Herzfrequenzmesser",
+    "Category": "Wearables",
+    "Entities": "{\"ausstattung\":[\"GPS\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\", \"Tablets\", \"Computer\", \"Andere\"]}, {\"id\": \"Marke\"}, {\"id\": \"Displaytechnologie\"}, {\"id\": \"Ausstattung\", \"values\": [\"Smart-TV\", \"GPS\"]}, {\"id\": \"Aufloesung\"}, {\"id\": \"Farbe\"}, {\"id\": \"Zubehoerfuer\"}, {\"id\": \"Betriebssystem\"}, {\"id\": \"Prozessor\"}, {\"id\": \"Arbeitsspeicher\"}, {\"id\": \"Speicherkapazitaet\"}, {\"id\": \"Modellreihe\"}, {\"id\": \"Grafikkarte\"}, {\"id\": \"Bildwiederholungsfrequenz\"}, {\"id\": \"Art\"}, {\"id\": \"Reaktionszeit\"}, {\"id\": \"Preis\"}]"
+  },
+  {
+    "ID": 1274,
+    "Query": "G\u00fcnstiger Fernseher mit 4K-Aufl\u00f6sung",
+    "Category": "Fernseher",
+    "Entities": "{\"aufloesung\":[\"Ultra-HD-4K\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Aufloesung\", \"values\": [\"Ultra-HD-4K\"]}, {\"id\": \"Preis\"}]"
+  },
+  {
+    "ID": 1268,
+    "Query": "Smartphone gut zum Gamen bis 700 Euro",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"preis\": [\"0\",\"700\"],\"zubehoerfuer\":[\"Gaming\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Gaming\"]}, {\"id\": \"Preis\", \"maximum\": 700}]"
+  },
+  {
+    "ID": 682,
+    "Query": "mobil phone",
+    "Category": "Mobiltelefone",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}]"
+  },
+  {
+    "ID": 541,
+    "Query": "smartphone ohne vertrag",
+    "Category": "Mobiltelefone",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"mobiles Internet\"]}]"
+  },
+  {
+    "ID": 1302,
+    "Query": "Desktop-PC mit Wasserk\u00fchlung f\u00fcr Gaming",
+    "Category": "Computer",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"ausstattung\":[\"Wasserk\u00fchlung\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Ausstattung\", \"values\": [\"kabelloses Laden\", \"Gaming\"]}, {\"id\": \"Kuehlung\", \"values\": [\"Wasserk\\u00fchlung\"]}]"
+  },
+  {
+    "ID": 1305,
+    "Query": "Tablet mit abnehmbarer Tastatur und 10 Zoll Display",
+    "Category": "Tablets",
+    "Entities": "{\"bildschirmgroesse\":[\"10 Zoll\"], \"ausstattung\":[\"Tastatur\", \"2 in 1 Convertible\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Ausstattung\", \"values\": [\"abnehmbarer Tastatur\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"10 Zoll\"]}]"
+  },
+  {
+    "ID": 1263,
+    "Query": "Smartphone mit Dual-SIM und 5G-Unterst\u00fctzung unter 600 Euro",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"ausstattung\":[\"Dual-SIM\",\"5G\"],\"preis\": [\"0\",\"600\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Dual-SIM\", \"5G\"]}, {\"id\": \"Preis\", \"maximum\": 600}]"
+  },
+  {
+    "ID": 1300,
+    "Query": "Smartphone mit optischem Zoom und 256GB Speicher",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"speicher\":[\"256 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"kabelloses Laden\", \"Smart-TV\", \"mobiles Internet\"]}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"256 GB\"]}]"
+  },
+  {
+    "ID": 58,
+    "Query": "fernseher 55 zoll samsung angebot",
+    "Category": "Fernseher",
+    "Entities": "{\"marke\":[\"Samsung\"],\"bildschirmgroesse\":[\"55 - 59 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"55 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}]"
+  },
+  {
+    "ID": 1289,
+    "Query": "Fernseher mit eingebauter Soundbar und 55 Zoll Display",
+    "Category": "Fernseher",
+    "Entities": "{\"bildschirmgroesse\":[\"55 - 59 Zoll\"],\"ausstattung\":[\"Eingebaute Soundbar\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"55 Zoll\"]}, {\"id\": \"Ausstattung\", \"values\": [\"eingebaute Soundbar\"]}]"
+  },
+  {
+    "ID": 392,
+    "Query": "chromebook flip touchscreen",
+    "Category": "Laptops",
+    "Entities": "{\"ausstattung\":[\"2 in 1 Convertible\"],\"modellreihe\":[\"Chromebook\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Touch Display\", \"2 in 1 Convertible\"]}]"
+  },
+  {
+    "ID": 1275,
+    "Query": "Notebook mit Touchscreen und 360-Grad-Scharnier",
+    "Category": "Laptops",
+    "Entities": "{\"ausstattung\":[\"Touch Display\",\"2 in 1 Convertible\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Touch Display\", \"2 in 1 Convertible\"]}]"
+  },
+  {
+    "ID": 1211,
+    "Query": "pc komplett set gaming",
+    "Category": "Computer",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 789,
+    "Query": "tablet samsung a7",
+    "Category": "Tablets",
+    "Entities": "{\"marke\":[\"Samsung\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Modellreihe\", \"values\": [\"A7\"]}]"
+  },
+  {
+    "ID": 1281,
+    "Query": "Fernseher mit 40 Zoll und Smart-TV-Funktionen",
+    "Category": "Fernseher",
+    "Entities": "{\"bildschirmgroesse\":[\"40 - 44 Zoll\"],\"ausstattung\":[\"Smart TV\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"40 Zoll\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Smart-TV\"]}]"
+  },
+  {
+    "ID": 1306,
+    "Query": "Smartwatch mit LTE und Musikstreaming",
+    "Category": "Other",
+    "Entities": "{\"ausstattung\":[\"mobiles Internet\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"mobiles Internet\", \"kabelloses Laden\"]}]"
+  },
+  {
+    "ID": 85,
+    "Query": "tv schrank in wohnzimmer",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"Wohnzimmer\"]}]"
+  },
+  {
+    "ID": 1307,
+    "Query": "Laptop mit AMD Ryzen 5 Prozessor und 512GB SSD",
+    "Category": "Laptops",
+    "Entities": "{\"prozessor\":[\"AMD Ryzen 5\"],\"ausstattung\":[\"SSD-Festplatte\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Prozessor\", \"values\": [\"AMD Ryzen 5\"]}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"512 GB\"]}]"
+  },
+  {
+    "ID": 323,
+    "Query": "notebook 17 zoll acer",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Acer\"],\"bildschirmgroesse\":[\"17 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"17 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"Acer\"]}]"
+  },
+  {
+    "ID": 876,
+    "Query": "ipad air 5 generation 2022",
+    "Category": "Tablets",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPad Air\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPad Air\"]}]"
+  },
+  {
+    "ID": 1301,
+    "Query": "Laptop mit 17 Zoll Bildschirm und Windows 11",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"17 Zoll\"],\"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"17 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 693,
+    "Query": "telefon samsung galaxy s22",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"],\"modellreihe\":[\"Galaxy S22\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Modellreihe\", \"values\": [\"Galaxy S22\"]}]"
+  },
+  {
+    "ID": 809,
+    "Query": "tablet tastatur samsung",
+    "Category": "Tablets",
+    "Entities": "{\"marke\":[\"Samsung\"],\"ausstattung\":[\"Tastatur\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Tastatur\"]}]"
+  },
+  {
+    "ID": 980,
+    "Query": "monitor 27 zoll curved",
+    "Category": "Monitor",
+    "Entities": "{\"art\":[\"curved\"],\"bildschirmgroesse\":[\"27 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"27 Zoll\"]}, {\"id\": \"Art\", \"values\": [\"curved\"]}]"
+  },
+  {
+    "ID": 1277,
+    "Query": "Robustes Outdoor-Smartphone mit langer Akkulaufzeit",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"ausstattung\":[\"Lange Akkulaufzeit\"],\"typ\":[\"Outdoor-Smartphone\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"lange Akkulaufzeit\"]}, {\"id\": \"Art\", \"values\": [\"Outdoor\"]}]"
+  },
+  {
+    "ID": 1297,
+    "Query": "Fernseher mit 65 Zoll und OLED-Display",
+    "Category": "Fernseher",
+    "Entities": "{\"bildschirmgroesse\":[\"65 - 69 Zoll\"],\"displaytechnologie\":[\"OLED\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"65 - 69 Zoll\"]}, {\"id\": \"Displaytechnologie\", \"values\": [\"OLED\"]}]"
+  },
+  {
+    "ID": 639,
+    "Query": "handys ohne vertrag",
+    "Category": "Mobiltelefone",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"mobiles Internet\"]}]"
+  },
+  {
+    "ID": 1258,
+    "Query": "Tablet f\u00fcr Zeichnen bis 600 Euro",
+    "Category": "Tablets",
+    "Entities": "{\"ausstattung\":[\"Stifteingabe\"],\"preis\":[\"0\",\"600\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Preis\", \"maximum\": 600}]"
+  },
+  {
+    "ID": 128,
+    "Query": "tv schrank 200 cm breit",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}]"
+  },
+  {
+    "ID": 1024,
+    "Query": "computer pc komplettset angebot windows 11",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows 11\"]}]"
+  },
+  {
+    "ID": 583,
+    "Query": "android smartphone ohne vertrag",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"betriebssystem\":[\"Android\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Android\"]}, {\"id\": \"Marke\"}, {\"id\": \"Ausstattung\", \"values\": [\"mobiles Internet\"]}, {\"id\": \"Vertrag\", \"values\": [\"ohne Vertrag\"]}]"
+  },
+  {
+    "ID": 1303,
+    "Query": "Monitor mit 34 Zoll und ultrawide Bildschirm",
+    "Category": "Monitor",
+    "Entities": "{\"bildschirmgroesse\":[\"34 Zoll\"],\"typ\":[\"Ultrawide\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"34 Zoll\"]}, {\"id\": \"Art\", \"values\": [\"ultrawide\"]}]"
+  },
+  {
+    "ID": 1276,
+    "Query": "Monitor mit 144 Hz und 24 Zoll bis 300 Euro",
+    "Category": "Monitor",
+    "Entities": "{\"bildwiederholungsfrequenz\":[\"144 Hz\"],\"bildschirmgroesse\":[\"24 Zoll\"],\"preis\":[\"0\",\"300\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"24 Zoll\", \"30 - 34 Zoll\"]}, {\"id\": \"Bildwiederholungsfrequenz\", \"values\": [\"144 Hz\"]}, {\"id\": \"Preis\", \"maximum\": 300}]"
+  },
+  {
+    "ID": 1298,
+    "Query": "Ultrabook mit 14 Zoll Bildschirm und unter 1,5 kg Gewicht",
+    "Category": "Laptops",
+    "Entities": "{\"typ\":[\"Ultrabook\"],\"bildschirmgroesse\":[\"14 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"14 Zoll\"]}, {\"id\": \"Gewicht\"}]"
+  },
+  {
+    "ID": 213,
+    "Query": "laptop 15 zoll angebote windows 11",
+    "Category": "Laptops",
+    "Entities": "{\"betriebssystem\":[\"Windows\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 1272,
+    "Query": "Smartphone mit bester Kameraqualit\u00e4t 2024 zwischen 600 und 1200 Euro",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"preis\":[\"600 bis 1200 Euro\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"kabelloses Laden\", \"Smart-TV\"]}, {\"id\": \"Preis\", \"minimum\": 600, \"maximum\": 1200}]"
+  },
+  {
+    "ID": 1028,
+    "Query": "pc windows 11",
+    "Category": "Computer",
+    "Entities": "{\"betriebssystem\":[\"Windows\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 1309,
+    "Query": "Monitor mit 27 Zoll und USB-C Anschluss",
+    "Category": "Monitor",
+    "Entities": "{\"bildschirmgroesse\":[\"27 Zoll\"],\"anschluesse\":[\"USB-C\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"27 Zoll\"]}, {\"id\": \"Ausstattung\", \"values\": [\"USB-C Anschluss\"]}]"
+  },
+  {
+    "ID": 894,
+    "Query": "ipad pro 2022 256 gb",
+    "Category": "Tablets",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPad Pro\"],\"speicherkapazitaet\":[\"256 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPad Pro\"]}, {\"id\": \"Speicherkapazitaet\", \"values\": [\"256 GB\"]}]"
+  },
+  {
+    "ID": 657,
+    "Query": "smartphone ohne vertrag xiaomi",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Xiaomi\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Xiaomi\"]}, {\"id\": \"Vertrag\"}]"
+  },
+  {
+    "ID": 953,
+    "Query": "gaming monitor 240 hz",
+    "Category": "Monitor",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"],\"bildwiederholungsfrequenz\":[\"240 Hz\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Monitor\"]}, {\"id\": \"Bildwiederholungsfrequenz\", \"values\": [\"240 Hz\"]}, {\"id\": \"Art\", \"values\": [\"gaming\"]}]"
+  },
+  {
+    "ID": 1304,
+    "Query": "Smartphone mit 120 Hz Display und 64MP Kamera",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"bildwiederholungsfrequenz\":[\"120 Hz\"],\"kamera\":[\"64 MP\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Displaytechnologie\", \"values\": [\"120 Hz\"]}, {\"id\": \"Ausstattung\", \"values\": [\"64MP Kamera\"]}, {\"id\": \"Bildwiederholungsfrequenz\", \"values\": [\"120 Hz\"]}]"
+  },
+  {
+    "ID": 586,
+    "Query": "smartphone samsung s23 ultra",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"],\"modellreihe\":[\"Galaxy S23\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Modellreihe\", \"values\": [\"Galaxy S23\"]}]"
+  },
+  {
+    "ID": 51,
+    "Query": "fernseher 55 zoll lg",
+    "Category": "Fernseher",
+    "Entities": "{\"marke\":[\"LG\"],\"bildschirmgroesse\":[\"55 - 59 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"55 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"LG\"]}]"
+  },
+  {
+    "ID": 355,
+    "Query": "notebook 15 zoll lenovo",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Lenovo\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Marke\", \"values\": [\"Lenovo\"]}]"
+  },
+  {
+    "ID": 1216,
+    "Query": "pc komplett set gaming samsung",
+    "Category": "Computer",
+    "Entities": "{\"marke\":[\"Samsung\"],\"zubehoerfuer\":[\"Gaming\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 483,
+    "Query": "iphone 15 pro max h\u00fclle mit kameraschutz",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"iPhone 15 Pro\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Andere\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"iPhone 15 Pro Max\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 1257,
+    "Query": "Robustes Outdoor-Smartphone mit langer Akkulaufzeit unter 400 Euro",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"ausstattung\":[\"Lange Akkulaufzeit\"],\"typ\":[\"Outdoor-Smartphone\"],\"preis\":[\"0\",\"400\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"mobiles Internet\"]}, {\"id\": \"Preis\", \"maximum\": 400}]"
+  },
+  {
+    "ID": 388,
+    "Query": "chromebook plus",
+    "Category": "Laptops",
+    "Entities": "{\"modellreihe\":[\"Chromebook\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\", \"Computer\"]}, {\"id\": \"Marke\"}, {\"id\": \"Displaytechnologie\"}, {\"id\": \"Ausstattung\", \"values\": [\"Chromebook\"]}, {\"id\": \"Aufloesung\"}, {\"id\": \"Farbe\"}, {\"id\": \"Zubehoerfuer\"}, {\"id\": \"Betriebssystem\"}, {\"id\": \"Prozessor\"}, {\"id\": \"Arbeitsspeicher\"}, {\"id\": \"Speicherkapazitaet\"}, {\"id\": \"Modellreihe\", \"values\": [\"plus\"]}, {\"id\": \"Grafikkarte\"}, {\"id\": \"Bildwiederholungsfrequenz\"}, {\"id\": \"Art\"}, {\"id\": \"Reaktionszeit\"}, {\"id\": \"Preis\"}]"
+  },
+  {
+    "ID": 1023,
+    "Query": "computer pc komplettset angebot samsung",
+    "Category": "Computer",
+    "Entities": "{\"marke\":[\"Samsung\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}]"
+  },
+  {
+    "ID": 668,
+    "Query": "mobiltelefon samsung",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}]"
+  },
+  {
+    "ID": 339,
+    "Query": "notebook 15 zoll windows 11",
+    "Category": "Laptops",
+    "Entities": "{\"betriebssystem\":[\"Windows\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 363,
+    "Query": "notebook 15 zoll i7",
+    "Category": "Laptops",
+    "Entities": "{\"bildschirmgroesse\":[\"15 Zoll\"],\"prozessor\":[\"Intel Core i7\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}, {\"id\": \"Prozessor\", \"values\": [\"Intel Core i7\"]}]"
+  },
+  {
+    "ID": 1310,
+    "Query": "Smartphone mit Fingerabdrucksensor im Display",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"ausstattung\":[\"Fingerabdrucksensor im Display\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Fingerabdrucksensor\"]}]"
+  },
+  {
+    "ID": 1279,
+    "Query": "MacBook Pro mit M1-Chip und 8GB RAM",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Apple\"],\"modellreihe\":[\"MacBook Pro\"],\"prozessor\":[\"M1\"],\"arbeitsspeicher\":[\"8 GB\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Prozessor\", \"values\": [\"M1\"]}, {\"id\": \"Arbeitsspeicher\", \"values\": [\"8 GB\"]}]"
+  },
+  {
+    "ID": 1167,
+    "Query": "pc gaming",
+    "Category": "Computer",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 217,
+    "Query": "laptop 14 zoll windows 11",
+    "Category": "Laptops",
+    "Entities": "{\"betriebssystem\":[\"Windows\"],\"bildschirmgroesse\":[\"14 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"14 Zoll\"]}, {\"id\": \"Betriebssystem\", \"values\": [\"Windows\"]}]"
+  },
+  {
+    "ID": 665,
+    "Query": "telefone samsung",
+    "Category": "Mobiltelefone",
+    "Entities": "{\"marke\":[\"Samsung\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Mobiltelefone\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}]"
+  },
+  {
+    "ID": 148,
+    "Query": "tv schrank mit kamin holz",
+    "Category": "Other",
+    "Entities": "{}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Fernseher\"]}, {\"id\": \"Zubehoerfuer\", \"values\": [\"Gaming\"]}]"
+  },
+  {
+    "ID": 812,
+    "Query": "samsung tablet h\u00fclle mit tastatur",
+    "Category": "Other",
+    "Entities": "{\"marke\":[\"Samsung\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Tablets\"]}, {\"id\": \"Marke\", \"values\": [\"Samsung\"]}]"
+  },
+  {
+    "ID": 298,
+    "Query": "macbook air m2 15 zoll",
+    "Category": "Laptops",
+    "Entities": "{\"marke\":[\"Apple\"],\"prozessor\":[\"M2\"],\"modellreihe\":[\"MacBook Air\"],\"bildschirmgroesse\":[\"15 Zoll\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Computer\"]}, {\"id\": \"Marke\", \"values\": [\"Apple\"]}, {\"id\": \"Modellreihe\", \"values\": [\"MacBook Air\"]}, {\"id\": \"Prozessor\", \"values\": [\"M2\"]}, {\"id\": \"Bildschirmgroesse\", \"values\": [\"15 Zoll\"]}]"
+  },
+  {
+    "ID": 158,
+    "Query": "laptop gaming",
+    "Category": "Laptops",
+    "Entities": "{\"zubehoerfuer\":[\"Gaming\"]}",
+    "Prediction": "[{\"id\": \"Kategorie\", \"values\": [\"Laptops\"]}, {\"id\": \"Ausstattung\", \"values\": [\"Gaming\"]}]"
+  }
+]
