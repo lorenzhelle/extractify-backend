@@ -21,6 +21,7 @@ fastapi = "^0.112.2"
 replicate = "^0.32.1"
 python-dotenv = "^1.0.1"
 scikit-learn = "^1.5.2"
+uvicorn = "^0.31.0"
 
 
 [build-system]
