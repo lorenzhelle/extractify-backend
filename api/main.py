@@ -51,8 +51,8 @@ def generate_target_schema(
     return target_schema
 
 
-@app.post("/recognize-filters")
-async def recognize_filters(request: FilterRequest):
+@app.post("/entity-linking")
+async def entity_linking(request: FilterRequest):
     print(request)
     input_schema = json.loads(request.schema)
 
