@@ -1,1 +1,11 @@
 .env
+**/**.pyc
+__pycache__/entity_linking.cpython-310.pyc
+__pycache__/schema.cpython-310.pyc
+api/__pycache__/main.cpython-310.pyc
+foundation_models/__pycache__/claude_function_calling.cpython-310.pyc
+foundation_models/__pycache__/google_function_calling.cpython-310.pyc
+foundation_models/__pycache__/llama_function_calling.cpython-310.pyc
+foundation_models/__pycache__/llama_oodt.cpython-310.pyc
+foundation_models/__pycache__/mistral_function_calling.cpython-310.pyc
+foundation_models/__pycache__/openai_function_calling.cpython-310.pyc

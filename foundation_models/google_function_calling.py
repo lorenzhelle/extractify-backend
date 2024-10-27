@@ -407,3 +407,41 @@ class GoogleFunctionCalling:
                 data.append(FilterGeneratorOutput(id=attr, values=values))
 
         return data
+
+    async def generate_response_generic(self, prompt: str) -> dict:
+        system_message = (
+            self.system_prompt
+            if self.system_prompt is not None
+            else "You are an AI assistant that helps people find information."
+        )
+        model_name = get_model_name(model=self.model)
+
+        function = self.functions[0]
+
+        function = FunctionDeclaration(
+            name=function["name"],
+            description=function["description"],
+            parameters=function["parameters"],
+        )
+
+        entity_linking_tool = Tool(
+            function_declarations=[function],
+        )
+
+        model = GenerativeModel(
+            model_name="gemini-1.5-pro-001",
+            system_instruction=system_message,
+        )
+
+        response = model.generate_content(prompt, tools=[entity_linking_tool])
+
+        response.candidates[0].content
+
+        params = {}
+        for key, value in (
+            response.candidates[0].content.parts[0].function_call.args.items()
+        ):
+            params[key] = value
+        params
+
+        return params

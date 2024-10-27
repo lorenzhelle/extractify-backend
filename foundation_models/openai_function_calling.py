@@ -59,6 +59,7 @@ class ChatOpenAIFunctionCalling:
         print("response", response.choices[0].message.function_call.arguments)
 
         tool_output = json.loads(response.choices[0].message.function_call.arguments)
+
         data = []
 
         # convert data to FilterGeneratorOutput
@@ -121,7 +122,7 @@ class ChatOpenAIFunctionCalling:
             ],
             temperature=self.temperature,
             functions=self.functions,
-            function_call={"name": "entity_linking"},
+            function_call="auto",
         )
 
         return json.loads(response.choices[0].message.function_call.arguments)

@@ -13,7 +13,7 @@ from models.models import FilterGeneratorOutput
 
 
 template = """
-Gegeben ist folgende Anfrage in einem E-Commerce Shop.
+Gegeben ist folgende Anfrage:s
 
 Query:
 {query}
@@ -49,7 +49,7 @@ class EntityLinking:
             or model == AIModelType.MISTRAL_MIXTRAL_8x22B
             or model == AIModelType.MISTRAL_SMALL
         ):
-            print("using mistral")
+            print("Using Mistral")
             self.llm = MistralFunctionCalling(
                 temperature=0.0,
                 system_prompt=system_prompt,
@@ -57,7 +57,6 @@ class EntityLinking:
                 model=model,
             )
         elif model == AIModelType.GOOGLE_GEMINI_PRO:
-            print("using google")
             self.llm = GoogleFunctionCalling(
                 temperature=0.0,
                 system_prompt=system_prompt,
@@ -81,11 +80,13 @@ class EntityLinking:
 
     async def generate_async(self, conversation: str) -> list[FilterGeneratorOutput]:
         prompt = function_calling_ner_tempalte.format(query=conversation)
+        print("Generate async")
         response = await self.llm.generate_response(prompt=prompt)
 
         return response
 
     def generate_sync(self, conversation: str) -> list[FilterGeneratorOutput]:
+        print("Generate sync")
         prompt = function_calling_ner_tempalte.format(query=conversation)
         response = self.llm.generate_response(prompt=prompt)
 

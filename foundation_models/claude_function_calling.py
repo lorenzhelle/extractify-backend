@@ -141,3 +141,46 @@ class ClaudeFunctionCalling:
                 data.append(FilterGeneratorOutput(id=attr, values=values))
 
         return data
+
+    async def generate_response_generic(
+        self, prompt: str
+    ) -> list[FilterGeneratorOutput]:
+        system_message = (
+            self.system_prompt
+            if self.system_prompt is not None
+            else "You are an AI assistant that helps people find information."
+        )
+        model = get_model_name(model=self.model)
+
+        tool_name = self.functions[0]["name"]
+
+        response = await self.client.messages.create(
+            model=model,
+            max_tokens=2000,
+            system=system_message,
+            messages=[
+                {"role": "user", "content": prompt},
+            ],
+            temperature=self.temperature,
+            tool_choice={"type": "tool", "name": tool_name},
+            tools=[
+                {
+                    "name": tool_name,
+                    "description": "Extrahiere die Werte für die Filter aus der Konversation",
+                    "input_schema": self.functions[0]["parameters"],
+                }
+            ],
+        )
+
+        tool_output = next(
+            (
+                message.input
+                for message in response.content
+                if message.type == "tool_use"
+            ),
+            None,
+        )
+
+        print("tool_output", tool_output)
+
+        return tool_output

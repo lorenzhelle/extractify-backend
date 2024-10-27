@@ -349,25 +349,6 @@ entity_linking_function = {
     },
 }
 
-toolPrompt = f"""
-You have access to the following functions:
-
-Use the function '{entity_linking_function["name"]}' to '{entity_linking_function["description"]}':
-{json.dumps(entity_linking_function)}
-
-If you choose to call a function ONLY reply in the following format with no prefix or suffix:
-
-<function=example_function_name>{{\"example_name\": \"example_value\"}}</function>
-
-Reminder:
-- Function calls MUST follow the specified format, start with <function= and end with </function>
-- Required parameters MUST be specified
-- Only call one function at a time
-- Put the entire function call reply on one line
-- If there is no function call available, answer the question like normal with your current knowledge and do not tell the user about function calls
-
-"""
-
 
 class LlamaFunctionCalling:
     temperature: float
@@ -399,6 +380,27 @@ class LlamaFunctionCalling:
 
         response = ""
 
+        print("self.functions", self.functions[0])
+
+        toolPrompt = f"""
+            You have access to the following functions:
+
+            Use the function '{self.functions[0]["name"]}' to '{self.functions[0]["description"]}':
+            {json.dumps(self.functions[0])}
+
+            If you choose to call a function ONLY reply in the following format with no prefix or suffix:
+
+            <function=example_function_name>{{\"example_name\": \"example_value\"}}</function>
+
+            Reminder:
+            - Function calls MUST follow the specified format, start with <function= and end with </function>
+            - Required parameters MUST be specified
+            - Only call one function at a time
+            - Put the entire function call reply on one line
+            - If there is no function call available, answer the question like normal with your current knowledge and do not tell the user about function calls
+
+            """
+
         try:
             # The meta/meta-llama-3-8b model can stream output as it's running.
             for event in replicate.stream(
@@ -417,14 +419,14 @@ class LlamaFunctionCalling:
 
         # try:
         parsed_response = parse_tool_response(response)["arguments"]
+
+        return parsed_response
         data = []
 
         # convert data to FilterGeneratorOutput
         for attr in parsed_response:
             print("attr", attr)
             filter_data = parsed_response[attr]
-            print("filter_data", filter_data)
-            print("type", type(filter_data))
 
             if filter_data == "unknown":
                 filter_data = None

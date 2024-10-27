@@ -39,6 +39,8 @@ class MistralFunctionCalling:
         )
         model = get_model_name(model=self.model)
 
+        print("promp", prompt)
+
         response = self.client.chat(
             model=model,
             messages=[
@@ -55,19 +57,24 @@ class MistralFunctionCalling:
                     "type": "function",
                     "function": {
                         "name": "entity_linking",
-                        "description": "Extrahiere die Werte für die Filter aus der Konversation",
+                        "description": "Extrahiere die passenden Werte für die Filter aus der Konversation",
                         "parameters": self.functions[0]["parameters"],
                     },
                 }
             ],
         )
 
-        print(response)
         tool_output = response.choices[0].message.tool_calls[0].function.arguments
 
         if type(tool_output) is str:
-            tool_output = json.loads(tool_output)
+            try:
+                tool_output = json.loads(tool_output)
+            except json.JSONDecodeError:
+                tool_output = tool_output
 
+        return tool_output
+
+    def process_filter_data(self, tool_output):
         data = []
 
         # convert data to FilterGeneratorOutput
@@ -78,7 +85,10 @@ class MistralFunctionCalling:
             if type(filter_data) is str:
                 filter_data = filter_data.replace("<UNKNOWN>", "null")
                 # convert string to json
-                filter_data = json.loads(filter_data)
+                try:
+                    filter_data = json.loads(filter_data)
+                except json.JSONDecodeError:
+                    filter_data = filter_data
 
             if type(filter_data) is bool:
                 continue
@@ -107,7 +117,6 @@ class MistralFunctionCalling:
                 if type(values) is str:
                     values = [values]
 
-                print("append data", values)
                 data.append(FilterGeneratorOutput(id=attr, values=values))
 
         return data

@@ -380,3 +380,34 @@ test_schema = {
         },
     },
 }
+
+topic_schema = {
+    "name": "entity_linking",
+    "description": "Extract fitting values for the filter from the query",
+    "parameters": {
+        "title": "Intent Category Linking",
+        "type": "object",
+        "properties": {
+            "category": {
+                "type": "string",
+                "enum": [
+                    "stats",
+                    "dba",
+                    "askubuntu",
+                    "gaming",
+                    "travel",
+                    "apple",
+                    "electronics",
+                    "english",
+                    "security",
+                    "physics",
+                    "gis",
+                    "scifi",
+                    "worldbuilding",
+                    "diy",
+                ],
+            }
+        },
+        "required": ["category"],
+    },
+}
