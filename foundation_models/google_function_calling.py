@@ -435,7 +435,12 @@ class GoogleFunctionCalling:
 
         response = model.generate_content(prompt, tools=[entity_linking_tool])
 
-        response.candidates[0].content
+        print("raw response", response)
+
+        print(
+            "response.candidates[0].content.args",
+            response.candidates[0].content,
+        )
 
         params = {}
         for key, value in (

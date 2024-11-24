@@ -22,7 +22,7 @@ Extrahiere die gewünschten Filterwerte aus der Konversation, nutze dabei nur di
 aber aus dem Kontext hervorgehen und helfen dem Kunden das passende Produkt zu finden.
 
 Denke dabei Schritt für Schritt vor und nutze die Funktionen, die dir zur Verfügung stehen. Erfinde keine neuen Werte in den Filter Werten.
-Wenn du für das Gespräch keine passendes Filter Werte findest, gib ein leeres Array zurück.
+Wenn du für das Gespräch keine passendes Filter Werte findest, gib ein leeres Array zurück. Benutze aber immer die Funktionen, die dir zur Verfügung stehen.
 """
 
 

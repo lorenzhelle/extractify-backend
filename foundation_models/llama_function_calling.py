@@ -417,6 +417,9 @@ class LlamaFunctionCalling:
         except Exception as e:
             print("error", e)
 
+        if response is None:
+            return None
+
         # try:
         parsed_response = parse_tool_response(response)["arguments"]
 

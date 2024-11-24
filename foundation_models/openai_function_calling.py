@@ -56,7 +56,9 @@ class ChatOpenAIFunctionCalling:
             function_call={"name": "entity_linking"},
         )
 
-        print("response", response.choices[0].message.function_call.arguments)
+        print("prompt", prompt)
+
+        print("response", response)
 
         tool_output = json.loads(response.choices[0].message.function_call.arguments)
 
@@ -124,5 +126,9 @@ class ChatOpenAIFunctionCalling:
             functions=self.functions,
             function_call="auto",
         )
+
+        print("prompt", prompt)
+        print("self.functions", self.functions)
+        print("response", response)
 
         return json.loads(response.choices[0].message.function_call.arguments)
