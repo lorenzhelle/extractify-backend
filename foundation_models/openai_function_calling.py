@@ -127,8 +127,9 @@ class ChatOpenAIFunctionCalling:
             function_call="auto",
         )
 
-        print("prompt", prompt)
-        print("self.functions", self.functions)
-        print("response", response)
+        function_call = response.choices[0].message.function_call
+
+        if function_call is None:
+            return None
 
         return json.loads(response.choices[0].message.function_call.arguments)

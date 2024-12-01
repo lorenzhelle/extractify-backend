@@ -39,6 +39,8 @@ class MistralFunctionCalling:
         )
         model = get_model_name(model=self.model)
 
+        print(self.functions)
+
         response = self.client.chat(
             model=model,
             messages=[

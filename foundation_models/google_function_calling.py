@@ -17,6 +17,10 @@ from vertexai.generative_models import (
     Tool,
 )
 
+from google.cloud.aiplatform_v1beta1.types import (
+    content as gapic_content_types,
+)
+
 
 class GoogleFunctionCalling:
     temperature: float
@@ -435,7 +439,13 @@ class GoogleFunctionCalling:
 
         response = model.generate_content(prompt, tools=[entity_linking_tool])
 
-        print("raw response", response)
+        finish_reason = response.candidates[0].finish_reason
+
+        print("finish_reason", str(finish_reason))
+
+        if finish_reason == gapic_content_types.Candidate.FinishReason.SAFETY:
+            print("Stop because of safety")
+            return None
 
         print(
             "response.candidates[0].content.args",

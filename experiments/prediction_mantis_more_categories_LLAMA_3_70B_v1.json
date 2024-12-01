@@ -2,27 +2,27 @@
   {
     "category": "stats",
     "utterance": "I'm using ANOVA F-Value from Scikit-learn (<a href=\"http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_classif.html#sklearn.feature_selection.f_classif\" rel=\"nofollow noreferrer\">link) to find importance of features in a machine learning task. I have numeric feature and binary classification. I'm also filtering the features whose p-value is > 0.05, but I don't know what value for the ANOVA F-Value is good enough? ",
-    "Prediction": "stats"
+    "Prediction": "scikit-learn"
   },
   {
     "category": "dba",
     "utterance": "What is the difference when speaking about 'LOB' and 'binary' data? Is it the same, in terms of binary data being stored in a separate filegroup, or are there differences?",
-    "Prediction": "sql-delete"
+    "Prediction": "table-valued-parameters"
   },
   {
     "category": "askubuntu",
     "utterance": "I am trying install ubuntu on Toshiba Satellite and I am having some difficulties. This is my first time installing a linux operating system. I have installed it onto a DVD and have created a 24 gb partion for it on my C: drive. When I put the disk in and do a restart it boots up into the black menu where I have a few options one of them being try linux and another being install linux. I select the install linux. It then goes to the purple screen that says ubuntu with the loading dots under it. That is as far as it gets. I've let it sit for 30 minutes and it never gets past that step.",
-    "Prediction": "linux"
+    "Prediction": "operating-system"
   },
   {
     "category": "gaming",
     "utterance": "I got to dungeon level 50 and amassed some 2000 gold. On the character select screen, I can level up starting at like 60 gold and +5 gold per level after.The swordsman gets +1 HP per level up, but there appears to be a max of 99 HP. You can easily collect +1 max HP per level (over 50 dungeon levels, that'll add up). So, I'm thinking it only makes sense to level up so far.So, finally, is there a level cap?",
-    "Prediction": "gaming"
+    "Prediction": "game"
   },
   {
     "category": "askubuntu",
     "utterance": "I want to have some loop sound effect when copy and delete progress showing up until the progress done.How can I do that?",
-    "Prediction": "loop"
+    "Prediction": "uisearchbar"
   },
   {
     "category": "askubuntu",
@@ -32,17 +32,17 @@
   {
     "category": "travel",
     "utterance": "I am a Pakistani national and I have Schengen business visa issued by Germany. I was supposed to travel to Germany for training but it was postponed. Now I am planning to go to Mexico, flying from Saudi Arabia, via Frankfurt, to Cancun. I have never used the German Schengen visa for the purpose it was issued. Can I use it to enter Mexico?",
-    "Prediction": "None"
+    "Prediction": "travel"
   },
   {
     "category": "apple",
     "utterance": "I am trying to set password when active the screen saves. This option is in Security &amp; Privacy -> Require Password checkbox.The problem is that this checkbox is gray - read only access - even if I unlock this in padlock. I am also using the administrator user.How solve it? Is there any Terminal command to add the password?I am using macOS Sierra 10.12.3.",
-    "Prediction": "macos"
+    "Prediction": "security"
   },
   {
     "category": "apple",
     "utterance": "Is there a way to use Mic/Line in as an output to plug a second set of earphones? I gave a shot with JackPilot which is not compatible with macOS 10.12.3.",
-    "Prediction": "micronaut"
+    "Prediction": "audio"
   },
   {
     "category": "askubuntu",
@@ -57,17 +57,17 @@
   {
     "category": "askubuntu",
     "utterance": "I have windows and ubuntu in the same system. I have hidden some files in the windows, but those files become visible when I use Ubuntu 15.10.How can I hide those files in both the OS?",
-    "Prediction": "windows"
+    "Prediction": "operating-system"
   },
   {
     "category": "english",
     "utterance": "In other words, what's the word for not wanting to repeat a word? I find attempts to avoid repeating a word are generally ham-fisted and unnatural. I know there is a word for the act of not repeating a word, but I can't remember what it is.",
-    "Prediction": "None"
+    "Prediction": "english"
   },
   {
     "category": "security",
     "utterance": "I am currently trying to mask the OS system I am using from the websites I visit. I'm doing this for an added layer of security. How would I go about hiding the OS from websites?",
-    "Prediction": "None"
+    "Prediction": "operating-system"
   },
   {
     "category": "physics",
@@ -87,27 +87,27 @@
   {
     "category": "askubuntu",
     "utterance": "After 2 weeks of using Ubuntu 16.04 I decided to uninstall Windows 10 and install it in Virtual-Box.So I formatted Windows partition to ext4 But right now I'm facing with some problems in managing my partitions!!<a href=\"https://i.stack.imgur.com/aGOwu.png\" rel=\"nofollow noreferrer\">Now I have /dev/sda1 completely free and I want to use it as home directory for Ubuntu and install Windows 10 on VB in this new partition.<br>Is there any way??Or Is it possible?<br>Thanks in advance.  ",
-    "Prediction": "partition-management"
-  },
-  {
-    "category": "dba",
-    "utterance": "I lose communication between my clusters almost 1 am to 1.30 am and it shows errors like 35206 on primary, 976 on clusters, sometimes the cluster is removed due to lost heartbeat leading to 1135 error , 1069 error. I have a strong feeling that my connection breaks everyday at that time but im clueless where to start kind of lost. any help will be greatly appreciated.",
-    "Prediction": "cluster"
-  },
-  {
-    "category": "electronics",
-    "utterance": "I'm using an ARM+FPGA platform to capture B2a (BeiDou or COMPASS) signals and determine the user position, velocity and precise time (PVT). The C/A frequency of B2a is 10.23MHz. If my sample rate is 20.46MHz, then I should do 32768 points-FFT by FPGA. Give me advise about how to achieve it.",
-    "Prediction": "arm64"
-  },
-  {
-    "category": "askubuntu",
-    "utterance": "Actually, I don't know if it's called GNOME Classic.  But I don't like the new GNOME (not complaining).  I like the version of GNOME that was standard until a few years ago.  How can I switch to that in Ubuntu 16.04?",
     "Prediction": "operating-system"
   },
   {
     "category": "dba",
+    "utterance": "I lose communication between my clusters almost 1 am to 1.30 am and it shows errors like 35206 on primary, 976 on clusters, sometimes the cluster is removed due to lost heartbeat leading to 1135 error , 1069 error. I have a strong feeling that my connection breaks everyday at that time but im clueless where to start kind of lost. any help will be greatly appreciated.",
+    "Prediction": "none"
+  },
+  {
+    "category": "electronics",
+    "utterance": "I'm using an ARM+FPGA platform to capture B2a (BeiDou or COMPASS) signals and determine the user position, velocity and precise time (PVT). The C/A frequency of B2a is 10.23MHz. If my sample rate is 20.46MHz, then I should do 32768 points-FFT by FPGA. Give me advise about how to achieve it.",
+    "Prediction": "electronics"
+  },
+  {
+    "category": "askubuntu",
+    "utterance": "Actually, I don't know if it's called GNOME Classic.  But I don't like the new GNOME (not complaining).  I like the version of GNOME that was standard until a few years ago.  How can I switch to that in Ubuntu 16.04?",
+    "Prediction": "askubuntu"
+  },
+  {
+    "category": "dba",
     "utterance": "We have two standalone servers with local storage. Based on our needs we have determined that we need to use AlwaysOn failover cluster instances. Can we use the \"<a href=\"https://docs.microsoft.com/en-us/windows-server/storage/storage-replica/storage-replica-overview\" rel=\"nofollow noreferrer\">Storage Replica overview\" feature of Windows Server 2016 to create the failover cluster?We also open to buy new SAN storage. Can this be possible?",
-    "Prediction": "windows-server-2016"
+    "Prediction": "operating-system"
   },
   {
     "category": "askubuntu",
@@ -127,7 +127,7 @@
   {
     "category": "askubuntu",
     "utterance": "I need to install this library so I can install another program to monitor data usage, but I can't install the library because nowhere I find the download tells me how to install it.I already downloaded c make but its just so complicated and I need help.I've tried in terminal Make C make and install ./configure and a really long command that I found on one site but nothing worked.I need the dev version of the libraryEDIT: I'm installing bitbudget-1.1",
-    "Prediction": "installation"
+    "Prediction": "gcc-warning"
   },
   {
     "category": "askubuntu",
@@ -137,7 +137,7 @@
   {
     "category": "stats",
     "utterance": "I have read in literature several times a distinction being made between Bernoulli assignments and completely randomized assignments in assigning treatment (1) vs control (0) to units in a study. I was wondering if anyone could point me in a direction to distinguish between the two. What is the difference between the two? Is there a connection to multinomial sampling? Thanks.",
-    "Prediction": "None"
+    "Prediction": "statistics"
   },
   {
     "category": "physics",
@@ -147,12 +147,12 @@
   {
     "category": "apple",
     "utterance": "I am looking for a solution to connect a MacBook Pro 11,4 (15\" retina model from mid 2015) to two monitors. The present question is different from prior questions on dual monitor for Macbook Pro, as it is for a specific model (specific ports) and monitors with specific connections.Both monitors have VGA and DVI connections, but my MacBook Pro has two ThunderBolt ports and a HDMI port.",
-    "Prediction": "macbook-pro"
+    "Prediction": "none"
   },
   {
     "category": "physics",
     "utterance": "Can someone please explain to me how the wave function of a Cooper pair is spherically symmetric?",
-    "Prediction": "None"
+    "Prediction": "physics"
   },
   {
     "category": "electronics",
@@ -177,7 +177,7 @@
   {
     "category": "askubuntu",
     "utterance": "<a href=\"https://developer.ubuntu.com/en/snappy/guides/autoupdate/\" rel=\"noreferrer\">As documented here, if there is a core update, the computer will automatically update, then reboot.I wish to have automatic updates on, but do not wish to have the machine automatically reboot. Is there a way to do this?",
-    "Prediction": "systemctl"
+    "Prediction": "askubuntu"
   },
   {
     "category": "electronics",
@@ -192,12 +192,12 @@
   {
     "category": "gaming",
     "utterance": "I was cruising along (read: waiting as I regained health) and it suddenly said <code>A malevolent force leaves your plate armor</code>.  What does this mean?Maybe it auto-uncursed? The plate armor was strength 19, and I enchanted it once (now 18).",
-    "Prediction": "armor"
+    "Prediction": "physics"
   },
   {
     "category": "stats",
     "utterance": "In the boosting algorithm,AdaBoost ,those observations which were misclassified by the classifier in the (m-1)th step have their weights increased in the mth step, and those which were correctly classified have their weights decreased. My question is, that isn't it possible that the new classifier now classifies the low weights ones wrong ,so that this cycle can continue and not yield much of a benefit?",
-    "Prediction": "boosting"
+    "Prediction": "conditional-operator"
   },
   {
     "category": "physics",
@@ -207,7 +207,7 @@
   {
     "category": "scifi",
     "utterance": "When I was a child, this would have been around 1990's and later, I watched an animated movie where there were a group of Pegasus living by a waterfall and mountainous area. There were both white and black Pegasus. If I am remembering it right they spoke (although I could be mistaken). Perhaps it wasn't a movie but a series of some kind?It isn't Fantasia as I have re-watched it and came back with a vehement no.It isn't The Last Unicorn.",
-    "Prediction": "None"
+    "Prediction": "scifi"
   },
   {
     "category": "electronics",
@@ -217,12 +217,12 @@
   {
     "category": "scifi",
     "utterance": "Early in Jumanji (1995) we learn Judy and Peter\u2019s parents died in an accident while they were young. Instead, the children are raised by a woman named Nora.I don\u2019t ever remember the film explaining who Nora was, or why she presumably adopted Judy and Peter.Is Nora\u2019s relation with Judy and Peter ever explained?",
-    "Prediction": "None"
+    "Prediction": "scifi"
   },
   {
     "category": "askubuntu",
     "utterance": "What do I need to do to connect a Sony PS2 eyetoy camera to a Dell laptop (Ubuntu 14.04) or a Pandaboard (Ubuntu 12.04)?",
-    "Prediction": "electronics"
+    "Prediction": "operating-system"
   },
   {
     "category": "worldbuilding",
@@ -232,12 +232,12 @@
   {
     "category": "stats",
     "utterance": "1) Is there an intuitive explanation for why data becomes correlated once rotated into the principal component basis?2) Is there any intuitive explanation behind why rotation doesn't affect the whitening of data?Specifically, I want to understand why $x_{ZCA} = U x_{PCA}$ where $x_{PCA} = D^{-1/2} U$ for the eigen decomposition of $X X^T$ works.",
-    "Prediction": "eigen decomposition"
+    "Prediction": "data-visualization"
   },
   {
     "category": "askubuntu",
     "utterance": "I'm setting up a desktop for the first time and having issues with making sure all the drivers for sound and graphics work.  I looked for any troubleshooters and there are none to be found.  I am new to Ubuntu and using 16.04",
-    "Prediction": "operating-system"
+    "Prediction": "askubuntu"
   },
   {
     "category": "physics",
@@ -262,7 +262,7 @@
   {
     "category": "askubuntu",
     "utterance": "After upgrading from 16.04 to 16.10\"sudo apt-get update\"  stalls for a long time when connecting to us.archive.ubuntu.comI do not have this issue on other computers running 16.04 or 16.10So it is not an internet issue.",
-    "Prediction": "ubuntu"
+    "Prediction": "askubuntu"
   },
   {
     "category": "apple",
@@ -272,7 +272,7 @@
   {
     "category": "askubuntu",
     "utterance": "I connect to my Ubuntu server with command line.I have installed Apache and, with cURL (PHP) I've tried to connect to <a href=\"http://www.imdb.com/\" rel=\"nofollow\">IMDb and get data from that website.But some of the data have German titles because of my server (which is in Germany), and I want to load all titles in English language! I should change my default country but I don't know how to do that in Ubuntu.I've searched and found these codes :<pre><code>sudo dpkg-reconfigure tzdata</code></pre>Any help, please?",
-    "Prediction": "ubuntu"
+    "Prediction": "operating-system"
   },
   {
     "category": "stats",
@@ -282,12 +282,12 @@
   {
     "category": "gaming",
     "utterance": "Is it possible to either have a dwarf build a wall one Z level lower than he is standing or else \"fill in\" a ramp one Z level lower? I find that when I have a pit with a ramp leading up inside I can fill every tile in the pit but the ramp, but then can't fill the ramp (to get that OCD required completely filled in pit).I realize I could just build a floor over the ramp, but that would result in a horrible ramp-void under the floor.Example:<a href=\"https://i.stack.imgur.com/gU8NN.jpg\" rel=\"nofollow noreferrer\">",
-    "Prediction": "fill"
+    "Prediction": "physics"
   },
   {
     "category": "gaming",
     "utterance": "I'm about to return to Dragon Age Inquisition to play Jaws of Hakkon, The Descent, and Trespasser. I completed the main story line, and I would like to change my romance from Josie to Cassandra for these. How can I do this?",
-    "Prediction": "None"
+    "Prediction": "dragon-age-inquisition"
   },
   {
     "category": "askubuntu",
@@ -297,7 +297,7 @@
   {
     "category": "apple",
     "utterance": "I recently uninstalled a VirtualBox installation that was made available to all users using the provided tool. I went to re-install for a single user, but it will only let me install for all users, not single user or specific location. How can I resolve this problem?I'm using a 2013 MacBook Pro with MacOS Sierra",
-    "Prediction": "macbook-pro"
+    "Prediction": "virtualbox"
   },
   {
     "category": "travel",
@@ -312,12 +312,12 @@
   {
     "category": "english",
     "utterance": "I am writing a research and I have to describe a process. To do this I have chosen an enumeration as follows:<blockquote>    To include ...  To add ...  To program ...  To write ...  </blockquote>I am not sure about starting each item of the list with the preposition <code>to</code>. I think best practices say that it is the way to do it, but it sounds a bit repetitive for me. Is there a better way to do it?",
-    "Prediction": "english"
+    "Prediction": "writing"
   },
   {
     "category": "gaming",
     "utterance": "I used to play with Industrialcraft through Technic all the time, and now that I'm playing Minecraft again, I went looking for it  however I can't find much up-to-date information. Is Industrialcraft still in development and compatible with the latest version of Minecraft?",
-    "Prediction": "None"
+    "Prediction": " Industrialcraft"
   },
   {
     "category": "askubuntu",
@@ -327,12 +327,12 @@
   {
     "category": "askubuntu",
     "utterance": "I have a bootable usb drive with extra space on it. Do i have to create another partition to use the extra space, or can i put everything i want on the device into one folder and copy it to the drive right along with all the installation files?  Would this mess up my multi-boot operation or installation if I were to add a large folder with all my other 'stuff' to it?By the way, this is for a pc and using windows files.",
-    "Prediction": "windows"
+    "Prediction": "operating-system"
   },
   {
     "category": "electronics",
     "utterance": "Do the devices like transistors and other semiconductors always require to be connected in the printed circuit boards the green strips and do they always require to be soldered into the board , cant we just always use wires ?",
-    "Prediction": "None"
+    "Prediction": "electronics"
   },
   {
     "category": "apple",
@@ -342,7 +342,7 @@
   {
     "category": "gis",
     "utterance": "My cartoDB map has several observations/points and sometimes they are clustered. I have infowindows setup for each point and it displays when I click on them. The problem happens when these points are close to each other. The window will popup for the first chosen point, but unless I close it or zoom in<a href=\"https://i.stack.imgur.com/TjnGh.jpg\" rel=\"nofollow noreferrer\"> significantly, it will not automatically close and re-open for those nearby points when I click on them. It will work fine if I choose points located far away from each other. Please, any advice?  ",
-    "Prediction": "cartodb"
+    "Prediction": "cartoDB"
   },
   {
     "category": "security",
@@ -352,17 +352,17 @@
   {
     "category": "gis",
     "utterance": "does anyone know how to go about converting lat, long, alt to x, y, z where you have an origin for x/y coordinate (specific place in London)? In other words, I have a lat long and alt data and would like to convert the to x,y,z with respect to a specific place, not the Earth center.For example, lat long is (51.5081\u00b0 N, 0.0759\u00b0 W) tower of london with altitude 100 meters and I want to convert my gps lat long to x y z considering the tower of london as the origin.",
-    "Prediction": "gis"
+    "Prediction": "physics"
   },
   {
     "category": "security",
     "utterance": "I was wondering in the Chaskey, when the message <code>m</code> is split into fixed size blocks such as <code>m1,m2,m3....ml</code>, what would be the size of each message block?Is it 128 bits each or it can be of any variable size?m=m1||m2||m3||...||ml",
-    "Prediction": "encryption"
+    "Prediction": "Chaskey"
   },
   {
     "category": "apple",
     "utterance": "I have a keyboard shortcut set for lockscreen - ctrl-shift-F15 but if the finder menu bar is visible, the shortcut doesn't work.  This is in El-Capitan on a macbook pro 2015 and I am using an external microsoft natural keyboard 4000.I followed these steps in setting up the lockscreen shortcut:<a href=\"http://www.macyourself.com/2013/01/27/how-to-lock-your-mac-screen-with-a-keyboard-shortcut\" rel=\"nofollow noreferrer\">http://www.macyourself.com/2013/01/27/how-to-lock-your-mac-screen-with-a-keyboard-shortcutThank you !",
-    "Prediction": "keyboard-shortcut"
+    "Prediction": "operating-system"
   },
   {
     "category": "askubuntu",
@@ -377,7 +377,7 @@
   {
     "category": "apple",
     "utterance": "I have a rescued mid-2013 11 inch MacBook Air working great off external USB 3 hard drive but missing its internal SSD.They use a custom SSD, which seem to be expensive even used and aftermarket.Are any adaptors available to install a generic SSD?I Googled and thought I found that they do now exist, but then I realized the ones I found were the opposite, for using the SSDs from various MacBooks in other laptops etc.",
-    "Prediction": "macbook"
+    "Prediction": "operating-system"
   },
   {
     "category": "apple",
@@ -387,7 +387,7 @@
   {
     "category": "gis",
     "utterance": "I am trying to access to a REST service by an anonymous user on GeoServer 2.9.4. I modified my resp.properties file to allow anonymous role free access to GET:<blockquote>  /**;GET=IS_AUTHENTICATED_ANONYMOUSLY    /**;POST,DELETE,PUT=ADMIN;</blockquote>Once I did this, the service gives me 404 status instead 401, and browser mode gives me an empty result, for example for service /geoserver/rest/layers/layer_name, I get:No such layer: layer_nameBut for service: /geoserver/rest/styles everything works great.What am I missing?",
-    "Prediction": "rest-api"
+    "Prediction": "geoserver"
   },
   {
     "category": "electronics",
@@ -397,7 +397,7 @@
   {
     "category": "diy",
     "utterance": "<a href=\"https://i.stack.imgur.com/fr2L5.jpg\" rel=\"nofollow noreferrer\">Could a termite or something else have made this hole? My wife is pretty sure it didn't exist before.",
-    "Prediction": "image-processing"
+    "Prediction": ""
   },
   {
     "category": "electronics",
@@ -407,12 +407,12 @@
   {
     "category": "security",
     "utterance": "I have read the details of pure JSON web token (JWT), and found that it is signed (e.g. by SHA256) but not encrypted. Hence, attack can read the sensitive information by decoding the header and payload.I am not very familiar the details of OpenID, but I know that OpenID uses JWT as data format to pass the token.My question is:In OpenID (e.g. OpenID 1.0, 2.0, OpenID connect), is JWT further secured by applying additional encryption or other approach, to prevent token stolen or information leakage (I believe the answer should be yes)? And how?",
-    "Prediction": "jwt"
+    "Prediction": "openiddict"
   },
   {
     "category": "scifi",
     "utterance": "Only a vague memory. It was a series written before 1995. I would guess since I read it as a pre-teen.  The main character was a girl who was or had some kind of key to the fairy world.  She traveled with a guy whose nickname was some kind of animal (like Beaver or Badger). In a later book they get married and have a child who is a changeling and the woman goes into the fairy world to get her real son back.  Then she raises both of the boys with her husband and the last book may be about the two boys going on an adventure.",
-    "Prediction": "None"
+    "Prediction": "scifi"
   },
   {
     "category": "stats",
@@ -422,7 +422,7 @@
   {
     "category": "physics",
     "utterance": "I've read up on quantum annealing, and particularly on the way it is done by companies like D-wave. I think I understand how it works and how it harnesses tunneling to find global optimal in a given energy potential.But the elephant in the room is: How can it be of any use? What is the point of looking for an optimum in a potential which you yourself have created? If the potential were a black box, then I could see some use. But clearly the potential is prepared in a controllable fashion, so that seems to defeat the purpose.Please clear up my confusion.",
-    "Prediction": "quantum-annealing"
+    "Prediction": "physics"
   },
   {
     "category": "travel",
@@ -432,12 +432,12 @@
   {
     "category": "dba",
     "utterance": "I have a field with an address in it (ex. <code>68 TIDAL BREEZE DR</code>) and this regular expression gets everything before the last sequence (ex. <code>68 TIDAL BREEZE</code>):<pre><code>substring (address from '(.*) ')</code></pre>My question is, how do I modify this expression to get everything after the first sequence (ex. 68) and everything before the last sequence (ex. DR) like so: <code>TIDAL BREEZE</code>?I'm using PostgreSQL 9.5.",
-    "Prediction": "postgresql"
+    "Prediction": "conditional-operator"
   },
   {
     "category": "askubuntu",
     "utterance": "14.04, Gnome Flashback desktop. How to create desktop shortcut for Firefox or other applications? Preferably, without installing additional components.",
-    "Prediction": "linux"
+    "Prediction": "gnome-flashback"
   },
   {
     "category": "askubuntu",
@@ -452,32 +452,32 @@
   {
     "category": "electronics",
     "utterance": "I've got a trouble with this filter:<a href=\"https://i.stack.imgur.com/Mtc4w.png\" rel=\"nofollow noreferrer\">I tried calculating transfer function from four-pole matrix, but can't handle it :(Any help much appreciated.That shaggy drawed element near U1 source is coil. Sorry for my drawing.What I've done so far (I think it is wrong):<a href=\"https://i.stack.imgur.com/XpTGo.jpg\" rel=\"nofollow noreferrer\">",
-    "Prediction": "physics"
+    "Prediction": "electronics"
   },
   {
     "category": "english",
     "utterance": "What's the difference between \"boast of\" and \" boast about\" ?",
-    "Prediction": "None"
+    "Prediction": "english"
   },
   {
     "category": "english",
     "utterance": "Consider an entrepreneur who builds a business through personal effort. This might be called sweat equity or getting your hands dirty.What is a concise phrase, preferably a single word, which represents the opposite?As requested, here's an example of how the word I imagine might be used in context:By leveraging prototyping-as-a-service, manufacturing-as-a-service, and fulfillment-as-service, Jim was able to build an end-to-end business without ever getting his hands dirty. He called this approach [WORD] production.",
-    "Prediction": "entrepreneur"
+    "Prediction": "none"
   },
   {
     "category": "physics",
     "utterance": "How do we arrive at the conclusion that redshifted light from cosmological sources has 'lost' energy during its transit from source to us? If in fact no actual measurement of the energy of the redshifted light is ever made. Either at source or here on earth.Am I correct in assuming that it is not because energy is observed to be 'lost' in the redshifted light during its transit from source to earth, but rather because the observed change in wavelength was not compatible with the theoretical concept of the photon?",
-    "Prediction": "None"
+    "Prediction": "physics"
   },
   {
     "category": "dba",
     "utterance": "Is there a way to configure SSRS 2016 to be able to send email from more than one email account?  I am looking to setup something that is department specific for our organization.  Right now its defaulting to one department and it doesn't really fit our growth plans.",
-    "Prediction": "config"
+    "Prediction": "ssrs"
   },
   {
     "category": "gaming",
     "utterance": "I have a 32-bit computer and I downloaded minecraft and tried to play the demo. But when I started it, it said something like 'Error: could not initialize jvm 64' or something. So does that mean minecraft can be played on only 64-bit? I really want to play minecraft. Is there a 32-bit version or something? Thanks in advance.",
-    "Prediction": "None"
+    "Prediction": "operating-system"
   },
   {
     "category": "electronics",
@@ -487,17 +487,17 @@
   {
     "category": "askubuntu",
     "utterance": "In this case, do I need to make any changes to my HDD (windows) drive?IMO, If I boot from live USB and install ubuntu with grub on the M.2 drive, I should be able to boot into Windows or Ubuntu by just selecting the boot drive at boot without making any changes to any of the bootloaders. Also, can anyone confirm if I'll need to UEFI and/or secure boot for this much also?",
-    "Prediction": "windows"
+    "Prediction": "operating-system"
   },
   {
     "category": "stats",
     "utterance": "My question is if we have three models e.g. linear regression, polynomial regression and smoothing spline, what would be the expected values of their RSS (training and test) be if the true relationship is 1) linear and 2) cubic.Let's say the data set is 1000.Thanks in advance.",
-    "Prediction": "stats"
+    "Prediction": "statistics"
   },
   {
     "category": "apple",
     "utterance": "I just bought an iPhone SE and I want to synchronize it with my iTunes library but when I connect the iPhone to my Mac I get a message saying that the iPhone can't be used because it requires a later iTunes version. I have iTunes 11.4 and when I check for updates it says it is the latest. I have O.S. 10.6.8 and would like not to upgrade to the next generation as some programs are not compatible any more. Do I have an option? Thank you",
-    "Prediction": "itunes"
+    "Prediction": "operating-system"
   },
   {
     "category": "diy",
@@ -527,7 +527,7 @@
   {
     "category": "stats",
     "utterance": "I have a multi-variable linear model. More precisely, a set of variables to explain a target variable. After adding Gaussian noise ($\\sim N(0,1))$, the MSE increased from roughly $21$ to roughly $22$.How can it be explained? Is that what's called overfitting?",
-    "Prediction": "machine-learning"
+    "Prediction": "statistics"
   },
   {
     "category": "electronics",
@@ -537,12 +537,12 @@
   {
     "category": "gis",
     "utterance": "It is commonly a problem when you need all points to be labelled, but due to high density of points it is difficult to understand the ties between points and labels. Arrows would be a way, but I haven't found anything similar even in SLD extensions.",
-    "Prediction": "gis"
+    "Prediction": "data-visualization"
   },
   {
     "category": "gis",
     "utterance": "I use a little algorithm to transform values from an openstreetmap-file into a table (.dbf).I use the function: GetFieldAsString(\"string\") from ogr.py and everything is fine, but when the \"string\" contains a char like \"_\" or \":\" the error:<pre><code>ERROR1: Invalid field name: 'string_string'</code></pre>appear.(The function I use comes from <a href=\"https://pcjericks.github.io/py-gdalogr-cookbook/vector_layers.html#create-a-new-shapefile-and-add-data\" rel=\"nofollow noreferrer\">there)",
-    "Prediction": "python"
+    "Prediction": "openstreetmap"
   },
   {
     "category": "gaming",
