@@ -6,7 +6,7 @@
 conda create -n entity-linking python=3.10
 
 conda activate entity-linking
-poetry install
+poetry install --no-root # install dependencies without root
 
 ```
 
@@ -17,7 +17,7 @@ PYTHONPATH=/Users/lorenz/Repos/extractify/backend python api/main.py
 
 Run the server:
 
-`uvicorn main:app --reload`
+`uvicorn api.main:app --reload`
 
 ## API Keys
 
