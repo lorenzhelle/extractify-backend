@@ -1,7 +1,7 @@
 import json
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 from entity_linking import EntityLinking
 from foundation_models.chat_openai import AIModelType
 from foundation_models.claude_oodt import ClaudeOODT
@@ -29,6 +29,7 @@ class FilterRequest(BaseModel):
     message: str
     schema: str
     model: AIModelType
+    domain_definition: Optional[str] = None
 
 
 class FilterResponse(BaseModel):
@@ -53,22 +54,40 @@ def generate_target_schema(
 
 @app.post("/entity-linking")
 async def entity_linking(request: FilterRequest):
-    print(request)
-    input_schema = json.loads(request.schema)
-
-    target_schema = generate_target_schema(input_schema, request.model)
-    llm_module = EntityLinking(schema=target_schema, model=request.model)
-
-    if (
-        request.model == AIModelType.MISTRAL_LARGE
-        or request.model == AIModelType.MISTRAL_MIXTRAL_8x22B
-        or request.model == AIModelType.MISTRAL_SMALL
-    ):
-        filter_generator_output = llm_module.generate_sync(conversation=request.message)
-    else:
-        filter_generator_output = await llm_module.generate_response_generic(
-            conversation=request.message
+    try:
+        input_schema = json.loads(request.schema)
+    except json.JSONDecodeError as e:
+        raise HTTPException(
+            status_code=400, detail=f"Invalid JSON schema format: {str(e)}"
         )
+
+    try:
+
+        message = request.message
+
+        if request.domain_definition is not None:
+            message += (
+                f"\n\nDomain definition: {request.domain_definition} \n"
+                + request.message
+            )
+
+        # target_schema = generate_target_schema(input_schema, request.model)
+        target_schema = input_schema
+        llm_module = EntityLinking(schema=target_schema, model=request.model)
+
+        if (
+            request.model == AIModelType.MISTRAL_LARGE
+            or request.model == AIModelType.MISTRAL_MIXTRAL_8x22B
+            or request.model == AIModelType.MISTRAL_SMALL
+        ):
+            filter_generator_output = llm_module.generate_sync(conversation=message)
+        else:
+            filter_generator_output = await llm_module.generate_response_generic(
+                conversation=message
+            )
+    except Exception as e:
+        print(f"Error in entity-linking: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
 
     return filter_generator_output
 
